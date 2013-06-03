@@ -1,111 +1,10 @@
 ##                                                                           ##
 #                                                                             #
-# Create a classification item javascript class                               #
+# The detail view.                                                            #
 #                                                                             #
 # Paul Vollmer <paul.vollmer@fh-potsdam.de>                                   #
 #                                                                             #
 ##                                                                           ##
-
-
-modalHelper = "javascript:
-document.getElementById('modal-svg').style.display='show';
-classificationItemSvgBig(this.id);"
-
-
-classificationItemDivHeadline = (obj, id) ->
-  # console.log 'name  = ' + obj.name
-  # console.log 'desc  = ' + obj.desc
-  # console.log 'class = ' + obj.class
-  # console.log 'total = ' + obj.total
-  # console.log 'rows  = ' + obj.rows
-
-  # create a div
-  d3.select('#'+obj.class)
-    .append('div')
-    .attr('class', 'classification-label')
-    .attr('id', id)
-
-  # the name
-  d3.select('#'+id)
-    .append('a')
-    .attr('href' ,'#openModal')
-    .attr('class', 'classification-label-text tooltip')
-    #.attr('class', 'classification-label-count tooltip')
-    .attr('id', obj.name)
-    .attr('onclick', modalHelper)
-    .text(obj.name+' ')
-    # the tooltip content
-    .append('span')
-    .text(obj.desc)
-
-
-  # the count
-  d3.select('#'+id)
-    .append('a')
-    .attr('href' ,'#')
-    .attr('class', 'classification-label-count')
-    .text(obj.total)
-    # the tooltip content
-    #.append('span')
-    #.text(obj.desc)
-
-  d3.select('#'+id)
-    .append('br')
-
-
-
-classificationItemSvg = (obj, id) ->
-  # calculate the svg size
-  tmpSvgWidth = RECT_SIZE_WITH_MARGIN*TOTAL_RECTS_ROW
-  tmpSvgHeight = RECT_SIZE_WITH_MARGIN
-  if obj.total >= TOTAL_RECTS_ROW
-    tmpRows = obj.total/TOTAL_RECTS_ROW
-    tmpSvgHeight = RECT_SIZE_WITH_MARGIN*tmpRows
-
-  # create the svg object
-  tmpSvg = d3.select('#'+id)
-
-             .append('a')
-             .attr('href', '#openModal')
-             .attr('id', obj.name)
-             .attr('onclick', modalHelper)
-             
-             .append('svg')
-             .attr('width', tmpSvgWidth)
-             .attr('height', tmpSvgHeight)
-             
-
-
-  tmpRectX = 0
-  tmpRectY = 0
-  tmpRectsCount = 0
-  i = 0
-  while i < obj.total
-    tmpRectX += RECT_SIZE_WITH_MARGIN
-    if tmpRectsCount == TOTAL_RECTS_ROW
-      tmpRectX = RECT_SIZE_WITH_MARGIN
-      tmpRectY += RECT_SIZE_WITH_MARGIN
-      tmpRectsCount = 0
-
-    
-    if METEORITES_DATA[obj.rows[i]].fall == 'Fell'
-      tmpSvg.append('rect')
-         .attr('x', tmpRectX)
-         .attr('y', tmpRectY)
-         .attr('width', RECT_SIZE)
-         .attr('height', RECT_SIZE)
-         .attr('class', 'fell')
-    else
-      tmpSvg.append('rect')
-         .attr('x', tmpRectX)
-         .attr('y', tmpRectY)
-         .attr('width', RECT_SIZE)
-         .attr('height', RECT_SIZE)
-         .attr('class', 'found')
-
-    i++
-    tmpRectsCount++
-
 
 
 
@@ -127,6 +26,7 @@ mousemovedHelper = (obj) ->
 
 mouseoutHelper = (obj) ->
   console.log 'mouse out'
+  divHelper.text('')
   # d3.select('#modalDialog-tooltip-space')
   #   .remove()
 
@@ -151,15 +51,22 @@ classificationItemSvgBig = (id) ->
       #console.log classification[j]
 
       d3.select('#modal-classification')
-        .text(id + ' (' + classification[j].total + ')')
+        .text(id)
+
+      d3.select('#modal-classification-total')
+        .text('Total: '+classification[j].total)
+      d3.select('#modal-classification-total-fell')
+        .text('Fell: '+classification[j].totalFell)
+      d3.select('#modal-classification-total-found')
+        .text('Found: '+classification[j].totalFound)
+
       d3.select('#modal-classification-desc')
         .text(classification[j].desc)
       
 
   tmpRectsRow = 100
   tmpRectWidth = 9
-  tmpRectHeight = 4
-  #tmpRectSize = 20
+  tmpRectHeight = 9
   tmpRectPosX = 0
   tmpRectPosY = 0
   tmpRectCnt = 0
@@ -171,9 +78,11 @@ classificationItemSvgBig = (id) ->
   tmpSvgHeight = (tmpRectHeight+1)*(classification[tmpIdValue].total/tmpRectsRow)
 
 
-  tmpSvg = d3.select('#modal-svg')
+  tmpSvg = d3.select('#modal-svg-container')
+             .append('svg')
              .attr('width', tmpSvgWidth)
              .attr('height', tmpSvgHeight)
+             .attr('id', 'modal-svg')
              .append('g')
 
   k = 0
@@ -232,5 +141,3 @@ classificationItemSvgBig = (id) ->
 
     k++
     tmpRectCnt++
-    
-  
