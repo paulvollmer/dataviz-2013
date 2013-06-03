@@ -11,29 +11,30 @@
   <body>
     <div id="container">
       
-      <h1 id="headline">Visualizing Meteorites</h1>
+      <h1 class="headline"><a href="http://www.visualizing.org/contests/visualizing-meteorites/">Visualizing Meteorites</a></h1>
 
-      <div id="intro">
+      <div class="intro">
         <h1>Meteorites Classification Count</h1>
-        <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit,<br />d do eiusat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id estsed do em.</h3>
+        <h3>Lorem ipsum dolor sit amet, <span style="color:#b8e305;">fell</span> and <span style="color:#298299;">found</span> elit,<br />d do eiusat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id estsed do em.</h3>
       </div> <!-- End #intro -->
 
 
       <!-- The detail view -->
       <div id="openModal" class="modalDialog">
         <div>
-          <a href="#close" title="Close" class="close" onclick="console.log('removeeeeeee');d3.select('#modal-svg g').remove();">close</a>
+          <a href="#close" title="Close" class="close" onclick="d3.select('#modal-svg').remove();">close</a>
 
-          <h2 id="modal-classification">Classification</h2>
+          <span id="modal-classification">Classification</span>
+          <span id="modal-classification-total">0</span>
+          <span id="modal-classification-total-fell">0</span>
+          <span id="modal-classification-total-found"></span>
           <div id="modal-classification-desc-container">
             <h5>Classification Description:</h5>
             <p id="modal-classification-desc">Description</p>
           </div>
           <div>
-            <div id="modalDialog-tooltip-space">Tooltip</div>
-
-            <!-- <svg id="modal-svg" style="visibility: hidden"></svg> -->
-            <svg id="modal-svg"></svg>
+            <div id="modalDialog-tooltip-space"></div>
+            <div id="modal-svg-container"></div>
           </div>
         </div>
       </div>
@@ -54,8 +55,20 @@
           </td>
         </tr>
         <tr>
-          <td colspan="3"><hr /></td>
-          <td colspan="3"><hr /></td>
+          <td colspan="3">
+            <svg width="611" height="10">
+              <rect fill="#57616B" width="611" height="2"/>
+              <rect fill="#57616B" width="2" height="7"/>
+              <rect x="609" fill="#57616B" width="2" height="7"/>
+            </svg>
+          </td>
+          <td colspan="3">
+            <svg width="611" height="10">
+              <rect fill="#57616B" width="611" height="2"/>
+              <rect fill="#57616B" width="2" height="7"/>
+              <rect x="609" fill="#57616B" width="2" height="7"/>
+            </svg>
+          </td>
         </tr>
 
         <tr>
@@ -73,10 +86,34 @@
           </td>
         </tr>
         <tr>
-          <td><hr /></td>
-          <td><hr /></td>
-          <td><hr /></td>
-          <td colspan="3"><hr /></td>
+          <td>
+            <svg width="201" height="10">
+              <rect fill="#57616B" width="201" height="2"/>
+              <rect fill="#57616B" width="2" height="7"/>
+              <rect x="199" fill="#57616B" width="2" height="7"/>
+            </svg>
+          </td>
+          <td>
+            <svg width="201" height="10">
+              <rect fill="#57616B" width="201" height="2"/>
+              <rect fill="#57616B" width="2" height="7"/>
+              <rect x="199" fill="#57616B" width="2" height="7"/>
+            </svg>
+          </td>
+          <td>
+            <svg width="201" height="10">
+              <rect fill="#57616B" width="201" height="2"/>
+              <rect fill="#57616B" width="2" height="7"/>
+              <rect x="199" fill="#57616B" width="2" height="7"/>
+            </svg>
+          </td>
+          <td colspan="3">
+            <svg width="611" height="10">
+              <rect fill="#57616B" width="611" height="2"/>
+              <rect fill="#57616B" width="2" height="7"/>
+              <rect x="609" fill="#57616B" width="2" height="7"/>
+            </svg>
+          </td>
         </tr>
 
 
@@ -105,9 +142,27 @@
 
 
         <tr>
-          <td><hr /></td>
-          <td><hr /></td>
-          <td><hr /></td>
+          <td>
+            <svg width="201" height="10">
+              <rect fill="#57616B" width="201" height="2"/>
+              <rect fill="#57616B" width="2" height="7"/>
+              <rect x="199" fill="#57616B" width="2" height="7"/>
+            </svg>
+          </td>
+          <td>
+            <svg width="201" height="10">
+              <rect fill="#57616B" width="201" height="2"/>
+              <rect fill="#57616B" width="2" height="7"/>
+              <rect x="199" fill="#57616B" width="2" height="7"/>
+            </svg>
+          </td>
+          <td>
+            <svg width="201" height="10">
+              <rect fill="#57616B" width="201" height="2"/>
+              <rect fill="#57616B" width="2" height="7"/>
+              <rect x="199" fill="#57616B" width="2" height="7"/>
+            </svg>
+          </td>
         </tr>
         <tr>
           <td rowspan="4">
@@ -127,7 +182,13 @@
           </td>
         </tr>
         <tr>
-          <td colspan="3"><hr /></td>
+          <td colspan="3">
+            <svg width="611" height="10">
+              <rect fill="#57616B" width="611" height="2"/>
+              <rect fill="#57616B" width="2" height="7"/>
+              <rect x="609" fill="#57616B" width="2" height="7"/>
+            </svg>
+          </td>
         </tr>
         <tr>
           <td>
@@ -157,7 +218,7 @@
         </div>
 
         <div id="project-imprint">
-          <p>This Project is designed and developed by Paul Vollmer</br>FH-Potsdam</p>
+          <p>This Project is designed and developed by Paul Vollmer<br>FH-Potsdam</p>
         </div> <!-- End #project-imprint -->
       </div>
     </div>
