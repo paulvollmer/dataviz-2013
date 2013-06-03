@@ -9,6 +9,14 @@ h1 {
   font-size: 26px;
 }
 
+.color-fell {
+  color: #b8e305;
+}
+
+.color-found {
+  color: #298299;
+}
+
 .headline > a {
   font-size: 25px;
   color: #374554;
@@ -126,7 +134,7 @@ a {
 }
 
 .tooltip span {
-  z-index: 10;
+  z-index: 99999;
   display: none;
   width: 240px;
   padding: 4px;
@@ -138,9 +146,8 @@ a {
 .tooltip:hover span {
   position: absolute;
   display: inline;
-  color: #111;
-  background: #D4D4D4;
-  border: 1px solid #DCA;
+  color: #FFF;
+  background: rgba(0, 0, 0, 0.9);
 }
 
 .callout {
@@ -172,7 +179,7 @@ a {
 }
 
 #modal-classification-total-found {
-  margin-left: -2px;
+  margin-left: 3px;
   font-size: 16px;
   font-style: italic;
   color: #298299;
@@ -202,8 +209,24 @@ a {
 #modalDialog-tooltip-space {
   position: absolute;
   z-index: 99999;
-  background: #ddd;
-  border-radius: 8px;
+}
+
+#current_info {
+  padding: 5px;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 3px;
+}
+
+#current_info_name {
+  padding: 10px;
+}
+
+#current_info_mass {
+  padding: 15px;
+}
+
+#current_info_year {
+  padding: 19px;
 }
 
 .modalDialog {
@@ -214,7 +237,7 @@ a {
   left: 0;
   z-index: 99990;
   pointer-events: none;
-  background: rgba(0, 0, 0, 0.9);
+  background: rgba(0, 0, 0, 0.8);
   opacity: 0;
   -webkit-transition: opacity 200ms ease-in;
      -moz-transition: opacity 200ms ease-in;
@@ -259,6 +282,28 @@ svg {
 
 .found {
   fill: #298299;
+}
+
+.fell-big {
+  fill: #b8e305;
+}
+
+.fell-big:hover {
+  cursor: none;
+  fill: #e2fc78;
+}
+
+.found-big {
+  fill: #298299;
+}
+
+.found-big:hover {
+  cursor: none;
+  fill: #4eb4cf;
+}
+
+svg.svg-hr {
+  fill: #57616b;
 }
 
 ::-webkit-scrollbar {
