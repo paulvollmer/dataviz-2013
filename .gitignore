@@ -4,6 +4,7 @@
 .*
 # well, except for this one
 !.gitignore
+!.gitkeep
 
 # Anybody working in Netbeans always carries this meta-data, that we don't need
 nbproject/
