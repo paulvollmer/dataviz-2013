@@ -3,16 +3,18 @@
  */
 class StartnextProjectJSON {
   
-  JSONObject json;
+  // Data of this project.
+  public int status;
+  public String title;
+  public String teaser;
+  public JSONArray answers;
+  public JSONArray keywords;
+  public JSONArray categories;
 
-  int status;
-  String title;
-  String teaser;
-  JSONArray answers;
-  JSONArray keywords;
-  JSONArray categories;
+  // Some private variables...
+  private boolean debugging = false;
 
-  // Some JSON keys we use
+  // Some JSON keys we need to get the data.
   private String JSON_KEY_STATUS     = "status";
   private String JSON_KEY_TITLE      = "title";
   private String JSON_KEY_TEASER     = "teaser";
@@ -24,22 +26,37 @@ class StartnextProjectJSON {
   /**
    * Constructor
    */
-  StartnextProjectJSON() {}
+  StartnextProjectJSON(boolean debug) {
+    debugging = debug;
+    if(debugging){
+      log("Run Debug Mode.");
+    }
+  }
   
   /**
    * Load the JSON file.
    */
-  void load(String filepath) {
-    println("StartnextProjectJSON load: "+filepath);
+  public void load(String filepath) {
+    log("load: "+filepath);
     
-    // Load a Startnext API project JSON file.
+    // Create a temporary JSONObject instance.
+    JSONObject json;
+
+    // Load a Startnext API project JSON file and read parameter we need.
     json = loadJSONObject(filepath);
-    
-    getStatus();
-    
+    updateVariables(json);
+  }
+
+  /**
+   * The main get function.
+   * Here we read all our JSON parameter we need.
+   */
+  private void updateVariables(JSONObject json) {
+    updateStatus(json);
+
     // Check the status of the JSON file. If zero, requested JSON file is valid. 
     if(status == 0) {
-      println("StartnextProjectJSON StartnextProjectJSON API Status OK");
+      log("API Status OK");
       
       // The data Object is an array. Create a new JSONArray instance to...
       JSONArray data = json.getJSONArray("data");
@@ -55,7 +72,7 @@ class StartnextProjectJSON {
     }
     // Something went wrong with this JSON...
     else {
-      println("StartnextProjectJSON API Status not correct. Code: " + status);
+      log("API Status not correct. Code: "+status);
     }
   }
 
@@ -73,7 +90,7 @@ class StartnextProjectJSON {
    * +------+-------------------------------------------------------------------------------------+
    * Documentation copied from http://doc.startnext.de
    */
-  void getStatus() {
+  private void updateStatus(JSONObject json) {
     if(json.hasKey(JSON_KEY_STATUS)) {
       status = json.getInt(JSON_KEY_STATUS);
     } else {
@@ -84,19 +101,28 @@ class StartnextProjectJSON {
   /**
    * Read a JSON String object and return the value.
    */
-  String getString(JSONObject data, String key) {
-    String s = data.getString(key);
-    println("StartnextProjectJSON "+key+" = "+s);
+  private String getString(JSONObject json, String key) {
+    String s = json.getString(key);
+    log(key+" = "+s);
     return s;
   }
 
   /**
    * Read a JSON Array and return it.
    */
-  JSONArray getJSONArray(JSONObject data, String key) {
-    JSONArray a = data.getJSONArray(key);
-    println("StartnextProjectJSON "+key+" = "+a);
+  private JSONArray getJSONArray(JSONObject json, String key) {
+    JSONArray a = json.getJSONArray(key);
+    log(key+" = "+a);
     return a;
+  }
+
+  /**
+   * Private logging helper
+   */
+  private void log(String s) {
+    if(debugging){
+      println("StartnextProjectJSON -> "+s);
+    }
   }
   
 }
