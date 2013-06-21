@@ -1,4 +1,5 @@
-class WordCounter {
+class WordCounter
+{
 
   IntDict dictionary;
 
@@ -15,6 +16,15 @@ class WordCounter {
     {
       String word = words[i];
       word.toLowerCase();
+      word.replace("!", "");
+      word.replace(".", "");
+      word.replace("?", "");
+      word.replace(",", "");
+      word.replace("/", "");
+      word.replace("(", "");
+      word.replace(")", "");
+      word.replace("[", "");
+      word.replace("]", "");
       checkWord(word);
     }
   }
@@ -31,5 +41,7 @@ class WordCounter {
       //println("new word ---- "+ word);
     }
   }
+  
+  
 }
 
