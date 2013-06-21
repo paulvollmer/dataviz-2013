@@ -8,7 +8,7 @@ StartnextProjectJSON project = new StartnextProjectJSON();
 void setup() {
   String FILENAME_BASE = "project_id_";
   String SUFFIX = ".json";
-  project.loadFiles(FILENAME_BASE, SUFFIX, 0, 100);
+  project.loadFiles(FILENAME_BASE, SUFFIX, 0, 2000);
   println(project.wc.dictionary);
 
   // Write the JSON file.
@@ -27,6 +27,5 @@ void setup() {
   }
   json.setJSONArray("words", values);
   saveJSONObject(json, "test.json");
-
   exit();
 }

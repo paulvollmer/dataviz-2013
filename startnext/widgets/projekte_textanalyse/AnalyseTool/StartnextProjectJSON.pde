@@ -49,14 +49,12 @@ class StartnextProjectJSON
   void load(String filepath)
   {
     println("StartnextProjectJSON load: " + filepath);
-
-
+    
     try {
 
       // Load a Startnext API project JSON file.
       JSONObject json;
       json = loadJSONObject(filepath);
-
 
       if ( json != null) {
         // Check the status of the JSON file. If zero, requested JSON file is valid. 
@@ -83,7 +81,7 @@ class StartnextProjectJSON
       }
     } 
     catch(Exception e) {
-      println("E R R O R" + e);
+      println(e);
     }
   }
 

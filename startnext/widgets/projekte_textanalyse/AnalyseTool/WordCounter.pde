@@ -1,3 +1,8 @@
+/**
+ * A simple WordCounting Class
+ */
+
+
 class WordCounter
 {
 
@@ -14,17 +19,25 @@ class WordCounter
     String[] words = content.split(" ");
     for (int i=0; i<words.length; i++)
     {
+      
+      // TODO: The Filter also destroys emoticons — that makes me ;-(
+      
       String word = words[i];
       word.toLowerCase();
-      word.replace("!", "");
-      word.replace(".", "");
-      word.replace("?", "");
-      word.replace(",", "");
-      word.replace("/", "");
-      word.replace("(", "");
-      word.replace(")", "");
-      word.replace("[", "");
-      word.replace("]", "");
+      word = word.replace("!", "");
+      word = word.replace(".", "");
+      word = word.replace("?", "");
+      word = word.replace("\"", "");
+      word = word.replace(":", "");
+      word = word.replace(";", "");
+      word = word.replace(",", "");
+      word = word.replace("/", "");
+      word = word.replace("(", "");
+      word = word.replace(")", "");
+      word = word.replace("[", "");
+      word = word.replace("]", "");
+      word = word.replace("\n", "");
+      word = word.replace("\t", "");
       checkWord(word);
     }
   }
