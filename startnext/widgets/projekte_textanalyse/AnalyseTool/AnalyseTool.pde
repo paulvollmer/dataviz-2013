@@ -13,19 +13,22 @@ void setup() {
 
   // Write the JSON file.
   JSONObject json = new JSONObject();
-  
+
   JSONArray values = new JSONArray();
   int i = 0;
   for (String k : project.wc.dictionary.keys()) {
-    println(k+", "+project.wc.dictionary.get(k));
-    JSONObject word = new JSONObject();
-    word.setString("name", k);
-    word.setInt("count", project.wc.dictionary.get(k));
-    word.setString("type", "foo");
-    values.setJSONObject(i, word);
-    i++;
+    if (project.wc.dictionary.get(k) > 15) {
+      println(k+", "+project.wc.dictionary.get(k));
+      JSONObject word = new JSONObject();
+      word.setString("name", k);
+      word.setInt("count", project.wc.dictionary.get(k));
+      word.setString("type", "foo");
+      values.setJSONObject(i, word);
+      i++;
+    }
   }
   json.setJSONArray("words", values);
   saveJSONObject(json, "test.json");
   exit();
 }
+

@@ -41,7 +41,7 @@ class StartnextProjectJSON
     {
       load(prefix + i + suffix);
     }
-    wc.dictionary.sortValues();
+    wc.dictionary.sortValuesReverse();
   }
 
 
