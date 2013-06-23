@@ -4,96 +4,183 @@
 class StartnextProjectJSON
 {
 
-  WordCounter wc;
-  //JSONObject json;
-
-  String title;
-  String teaser;
-  JSONArray answers;
-  JSONArray keywords;
-  JSONArray categories;
+  WordCounter wc, wcFunded, wcNotFunded;
+  TextAnalyser ta;
+  ArrayList<ProjectInfo> infos;
 
   // Some JSON keys we use
-  private String JSON_KEY_STATUS     = "status";
-  private String JSON_KEY_TITLE      = "title";
-  private String JSON_KEY_TEASER     = "teaser";
-  private String JSON_KEY_ANSWERS    = "answers";
-  private String JSON_KEY_KEYWORDS   = "keywords";
-  private String JSON_KEY_CATEGORIES = "categories";
+  private String JSON_KEY_TITLE                  = "title";
+  private String JSON_KEY_STATUS                 = "status";
+  private String JSON_KEY_FUNDING_THRESHOLD      = "funding_threshold";
+  private String JSON_KEY_END_DATE               = "end_date";
+  private String JSON_KEY_TEASER                 = "teaser";
+  private String JSON_KEY_ANSWERS                = "answers";
+  private String JSON_KEY_FUNDING_STATUS         = "funding_status";
+  private String JSON_KEY_KEYWORDS               = "keywords";
+  private String JSON_KEY_CATEGORIES             = "categories";
 
+  private long timestampNow;
 
   /**
    * Constructor
    */
   StartnextProjectJSON() {
     wc = new WordCounter();
+    wcFunded = new WordCounter();
+    wcNotFunded = new WordCounter();
+    ta = new TextAnalyser();
+    timestampNow = System.currentTimeMillis();
+    infos = new ArrayList<ProjectInfo>();
+    
   }
 
+/*
+ * ============================================================================
+ * JSON FILE LOAD FUNCTIONS
+ * ============================================================================
+ */
+
   /**
-   * Load the JSON file.
+   * Load the JSON files.
    */
-
-
-
-  void loadFiles(String prefix, String suffix, int offset, int limit)
-  {
-    for (int i=offset; i<limit; i++)
-    {
+  void loadFiles(String prefix, String suffix, int offset, int limit) {
+    for (int i=offset; i<limit; i++) {
       load(prefix + i + suffix);
     }
     wc.dictionary.sortValues();
+    wcFunded.dictionary.sortValues();
+    wcNotFunded.dictionary.sortValues();
   }
 
 
-
-  void load(String filepath)
-  {
-    println("StartnextProjectJSON load: " + filepath);
-    
+  /**
+   * Load a Startnext API project JSON file
+   */
+  void load(String filepath) {
+    Dbg.println("StartnextProjectJSON load: " + filepath);
+    JSONObject json = null;
     try {
-
-      // Load a Startnext API project JSON file.
-      JSONObject json;
       json = loadJSONObject(filepath);
-
-      if ( json != null) {
-        // Check the status of the JSON file. If zero, requested JSON file is valid. 
-        if (getStatus(json) == 0) {
-          println("StartnextProjectJSON StartnextProjectJSON API Status OK");
-
-          // The data Object is an array. Create a new JSONArray instance to...
-          JSONArray data = json.getJSONArray("data");
-          // ...read the first object of the data array. 
-          JSONObject dataItems = data.getJSONObject(0);
-
-          // Get the data we need.
-          title  = getString(dataItems, JSON_KEY_TITLE);
-          teaser = getString(dataItems, JSON_KEY_TEASER);
-          answers    = getJSONArray(dataItems, JSON_KEY_ANSWERS);
-          keywords   = getJSONArray(dataItems, JSON_KEY_KEYWORDS);
-          categories = getJSONArray(dataItems, JSON_KEY_CATEGORIES);
-
-
-          analyseJSONArray(answers);
-        }
-        // Something went wrong with this JSON... else {
-        println("StartnextProjectJSON API Status not correct. Code: " + getStatus(json));
-      }
     } 
     catch(Exception e) {
       println(e);
     }
-  }
 
-
-  void analyseJSONArray(JSONArray json)
-  {
-    for (int i=0; i<json.size(); i++)
-    {
-      wc.countWords(json.getString(i));
+    if (json != null) {
+      // Check the status of the JSON file. If zero, requested JSON file is valid.
+      int status = getStatus(json);  
+      switch(status) {
+      case 0:
+        Dbg.println("StartnextProjectJSON StartnextProjectJSON API Status OK");
+        analyseJson(json);
+        break;
+      default:
+        // Something went wrong with this JSON... else {
+        System.err.println("StartnextProjectJSON API Status not correct. Code: " + status);
+      }
+    }
+    else {
+      System.err.println("loadJson(): json == null");
     }
   }
+  
+/*
+ * ============================================================================
+ * JSON ANALYSE FUNCTIONS
+ * ============================================================================
+ */
 
+  void analyseJson(JSONObject json) {
+    // The data Object is an array. Create a new JSONArray instance to...
+    JSONArray data = json.getJSONArray("data");
+    // ...read the first object of the data array. 
+    JSONObject dataItems = data.getJSONObject(0);
+
+    // Get the data we need.
+    String title  = getString(dataItems, JSON_KEY_TITLE);
+    String teaser = getString(dataItems, JSON_KEY_TEASER);
+    JSONArray answers    = getJSONArray(dataItems, JSON_KEY_ANSWERS);
+    JSONArray keywords   = getJSONArray(dataItems, JSON_KEY_KEYWORDS);
+    JSONArray categories = getJSONArray(dataItems, JSON_KEY_CATEGORIES);
+    int funding_threshold = -1;
+    if(dataItems.hasKey(JSON_KEY_FUNDING_THRESHOLD)){
+      funding_threshold = getInt(dataItems, JSON_KEY_FUNDING_THRESHOLD);
+    }
+    int funding_status = 0;
+    if(dataItems.hasKey(JSON_KEY_FUNDING_STATUS)){
+      funding_status = getInt(dataItems, JSON_KEY_FUNDING_STATUS);
+    }
+    boolean isFunded = funding_status >= funding_threshold ? true : false;
+
+    ProjectInfo info = new ProjectInfo();
+    
+    // Answers
+    String answersAll = mergeStringsFromJsonArray(answers);
+    wc.countWords(answersAll);
+    info.answersTextInfo = ta.analyse(answersAll);
+    // Teaser
+    info.teaserTextInfo = ta.analyse(teaser);
+    // Tags
+    info.nTags = keywords.size();
+    // funded / not funded
+    info.successful = isFunded;
+    // only add finished items to the list
+    if(!isStillActive(dataItems)){
+      infos.add(info);
+      if(isFunded){
+        wcFunded.countWords(answersAll);
+      }else{
+        wcNotFunded.countWords(answersAll);
+      }
+    }
+    Dbg.println(infos.size() + "");
+  }
+  
+/*
+ * ============================================================================
+ * PRINT HELPER FUNCTIONS
+ * ============================================================================
+ */  
+ 
+ void printLastNElements(IntDict dict, int n){
+   if(n > dict.size()){
+     System.err.println("printLastNElements(): n is too big! n: " + n + ", dict.size(): " + dict.size()); 
+   }
+   else if(dict.size() == 0){
+     System.err.println("printLastNElements(): dict is empty!");
+   }
+   int j = 1;
+   String[] keys = dict.keyArray();
+   for(int i = dict.size()-1; i>=dict.size()-n; i--){
+     println("[" + j++ + "] " + keys[i]);    
+   }
+ }
+  
+  void printMostFrequentWords(int wordsToDisplay){
+    println("Most frequent words (top " + wordsToDisplay + ") ~~~~~~~~~~~~~~~~" + System.getProperty("line.separator"));
+    printLastNElements(wc.dictionary, wordsToDisplay);  
+  }
+  
+  void printMostFrequentWordsFundedOnly(int wordsToDisplay){
+    println("Most frequent words (top " + wordsToDisplay + ", funded only) ~~~~~~~~~~~~~~~~" + System.getProperty("line.separator"));
+    printLastNElements(wcFunded.dictionary, wordsToDisplay);  
+  }
+  
+  void printMostFrequentWordsNotFundedOnly(int wordsToDisplay){
+    println("Most frequent words (top " + wordsToDisplay + ", not funded only) ~~~~~~~~~~~~~~~~" + System.getProperty("line.separator"));
+    printLastNElements(wcNotFunded.dictionary, wordsToDisplay);  
+  }
+
+/*
+ * ============================================================================
+ * JSON ANALYSE HELPER FUNCTIONS
+ * ============================================================================
+ */
+
+  public boolean isStillActive(JSONObject dataItems) {
+    long timestampEndDate = getLong(dataItems, JSON_KEY_END_DATE);
+    return timestampEndDate > timestampNow;
+  }
 
 
   /**
@@ -112,14 +199,18 @@ class StartnextProjectJSON
    */
 
   int getStatus(JSONObject json) {
-    int status;
+    int status = -1;
     if (json.hasKey(JSON_KEY_STATUS)) {
       status = json.getInt(JSON_KEY_STATUS);
-    } else {
-      status = -1;
-    }
+    } 
     return status;
   }
+
+/*
+ * ============================================================================
+ * HELPER FUNCTIONS - JSON
+ * ============================================================================
+ */
 
   /**
    * Read a JSON String object and return the value.
@@ -129,6 +220,22 @@ class StartnextProjectJSON
     //println("StartnextProjectJSON "+key+" = "+s);
     return s;
   }
+  
+  /**
+   * Read a JSON String object and return the value.
+   */
+  int getInt(JSONObject data, String key) {
+    int i = data.getInt(key);
+    return i;
+  }
+  
+  /**
+   * Read a JSON String object and return the value.
+   */
+  long getLong(JSONObject data, String key) {
+    long l = data.getLong(key);
+    return l;
+  }
 
   /**
    * Read a JSON Array and return it.
@@ -137,6 +244,17 @@ class StartnextProjectJSON
     JSONArray a = data.getJSONArray(key);
     //println("StartnextProjectJSON "+key+" = "+a);
     return a;
+  }
+  
+  /**
+   * Sums all Strings in the JSONArray up as a new String 
+   */
+  public String mergeStringsFromJsonArray(JSONArray jArr) {
+    String ret = "";
+    for (int i=0; i<jArr.size(); i++) {
+      ret += jArr.getString(i);
+    }
+    return ret;
   }
 }
 
