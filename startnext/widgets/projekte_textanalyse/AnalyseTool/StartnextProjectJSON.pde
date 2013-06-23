@@ -47,9 +47,9 @@ class StartnextProjectJSON
     for (int i=offset; i<limit; i++) {
       load(prefix + i + suffix);
     }
-    wc.dictionary.sortValues();
-    wcFunded.dictionary.sortValues();
-    wcNotFunded.dictionary.sortValues();
+    wc.dictionary.sortValuesReverse();
+    wcFunded.dictionary.sortValuesReverse();
+    wcNotFunded.dictionary.sortValuesReverse();
   }
 
 
@@ -141,34 +141,20 @@ class StartnextProjectJSON
  * PRINT HELPER FUNCTIONS
  * ============================================================================
  */  
- 
- void printLastNElements(IntDict dict, int n){
-   if(n > dict.size()){
-     System.err.println("printLastNElements(): n is too big! n: " + n + ", dict.size(): " + dict.size()); 
-   }
-   else if(dict.size() == 0){
-     System.err.println("printLastNElements(): dict is empty!");
-   }
-   int j = 1;
-   String[] keys = dict.keyArray();
-   for(int i = dict.size()-1; i>=dict.size()-n; i--){
-     println("[" + j++ + "] " + keys[i]);    
-   }
- }
   
   void printMostFrequentWords(int wordsToDisplay){
-    println("Most frequent words (top " + wordsToDisplay + ") ~~~~~~~~~~~~~~~~" + System.getProperty("line.separator"));
-    printLastNElements(wc.dictionary, wordsToDisplay);  
+    PrintUtil.printHeader("Most frequent words (top " + wordsToDisplay + ")");
+    IntDictUtil.printFirsttNElements(wc.dictionary, wordsToDisplay);  
   }
   
   void printMostFrequentWordsFundedOnly(int wordsToDisplay){
-    println("Most frequent words (top " + wordsToDisplay + ", funded only) ~~~~~~~~~~~~~~~~" + System.getProperty("line.separator"));
-    printLastNElements(wcFunded.dictionary, wordsToDisplay);  
+    PrintUtil.printHeader("Most frequent words (top " + wordsToDisplay + ", funded only)");
+    IntDictUtil.printFirstNElements(wcFunded.dictionary, wordsToDisplay);  
   }
   
   void printMostFrequentWordsNotFundedOnly(int wordsToDisplay){
-    println("Most frequent words (top " + wordsToDisplay + ", not funded only) ~~~~~~~~~~~~~~~~" + System.getProperty("line.separator"));
-    printLastNElements(wcNotFunded.dictionary, wordsToDisplay);  
+    PrintUtil.printHeader("Most frequent words (top " + wordsToDisplay + ", not funded only)");
+    IntDictUtil.printFirstNElements(wcNotFunded.dictionary, wordsToDisplay);  
   }
 
 /*
