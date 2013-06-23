@@ -1,4 +1,4 @@
-import processing.data.*;
+import processing.data.IntDict;
 
 public class IntDictUtil{
   public static void printFirstNElements(IntDict dict, int n){
