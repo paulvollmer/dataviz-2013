@@ -144,7 +144,7 @@ class StartnextProjectJSON
   
   void printMostFrequentWords(int wordsToDisplay){
     PrintUtil.printHeader("Most frequent words (top " + wordsToDisplay + ")");
-    IntDictUtil.printFirsttNElements(wc.dictionary, wordsToDisplay);  
+    IntDictUtil.printFirstNElements(wc.dictionary, wordsToDisplay);  
   }
   
   void printMostFrequentWordsFundedOnly(int wordsToDisplay){

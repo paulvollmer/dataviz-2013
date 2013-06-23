@@ -1,3 +1,5 @@
+import processing.data.*;
+
 public class IntDictUtil{
   public static void printFirstNElements(IntDict dict, int n){
      if(n > dict.size()){
@@ -8,7 +10,7 @@ public class IntDictUtil{
      }
      String[] keys = dict.keyArray();
      for(int i=0; i<n; i++){
-       println("[" + i + "] " + keys[i]);    
+       System.out.println("[" + i + "] " + keys[i]);    
      }
    }
    
@@ -22,7 +24,7 @@ public class IntDictUtil{
      int j = 0;
      String[] keys = dict.keyArray();
      for(int i = dict.size()-1; i>=dict.size()-n; i--){
-       println("[" + j++ + "] " + keys[i]);    
+       System.out.println("[" + j++ + "] " + keys[i]);    
      }
    }
 }
