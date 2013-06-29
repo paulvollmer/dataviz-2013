@@ -1,12 +1,14 @@
 /**
- * A simple WordCounting Class
+ * A simple WordCounting Object. It creates a Dictionary of Words can be fed with Strings and counts the occurence of every word. 
  */
 
 
 class WordCounter
 {
 
+
   IntDict dictionary;
+
 
   WordCounter()
   {
@@ -19,9 +21,8 @@ class WordCounter
     String[] words = content.split(" ");
     for (int i=0; i<words.length; i++)
     {
-      
+
       // TODO: The Filter also destroys emoticons — that makes me ;-(
-      
       String word = words[i];
       word.toLowerCase();
       word = word.replace("!", "");
@@ -48,13 +49,29 @@ class WordCounter
     int occurrence = dictionary.get(word);
     if (occurrence > 0) {
       dictionary.add(word, 1);
-      //println("known word --- "+ word + " --- " + occurrence+1);
     } else {
       dictionary.set(word, 1);
-      //println("new word ---- "+ word);
     }
   }
-  
-  
+
+
+  JSONObject getDictionaryAsJSONObject(int threshold) {
+    // Write the JSON file.
+    JSONObject result = new JSONObject();
+    JSONArray values = new JSONArray();
+
+    int i = 0;
+    for (String k : dictionary.keys()) {
+      if (dictionary.get(k) >= threshold) {
+        JSONObject word = new JSONObject();
+        word.setString("name", k);
+        word.setInt("count", dictionary.get(k));
+        values.setJSONObject(i, word);
+        i++;
+      }
+    }
+    result.setJSONArray("words", values);
+    return result;
+  }
 }
 

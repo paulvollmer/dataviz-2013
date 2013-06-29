@@ -29,26 +29,17 @@ void setup() {
   project = new StartnextProjectJSON();
   project.loadFiles(FILENAME_BASE, SUFFIX, 0, 2000);
   //println(project.wc.dictionary);
-  project.printMostFrequentWords(20);
-  project.printMostFrequentWordsFundedOnly(20);
-  project.printMostFrequentWordsNotFundedOnly(20);
+  //project.printMostFrequentWords(20);
+  //project.printMostFrequentWordsFundedOnly(20);
+  //project.printMostFrequentWordsNotFundedOnly(20);
   
 
   // Write the JSON file.
-  JSONObject json = new JSONObject();
-  
-  JSONArray values = new JSONArray();
-  int i = 0;
-  for (String k : project.wc.dictionary.keys()) {
-    //println(k+", "+project.wc.dictionary.get(k));
-    JSONObject word = new JSONObject();
-    word.setString("name", k);
-    word.setInt("count", project.wc.dictionary.get(k));
-    word.setString("type", "foo");
-    values.setJSONObject(i, word);
-    i++;
-  }
-  json.setJSONArray("words", values);
+  JSONObject json = project.wc.getDictionaryAsJSONObject(15);
   saveJSONObject(json, "test.json");
+  JSONObject wordsPerMonth = project.wcPerMonth.getMonthsAsJSONObject(2);
+  saveJSONObject(wordsPerMonth, "keywordsPerMonth.json");
+
+  
   exit();
 }
