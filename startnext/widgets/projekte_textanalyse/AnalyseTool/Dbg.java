@@ -1,5 +1,5 @@
 public class Dbg{
-  private static boolean debugMode = false;
+  private static boolean debugMode = true;
   
   public static void println(String s){
     if(debugMode){
