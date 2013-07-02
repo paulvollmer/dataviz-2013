@@ -8,6 +8,7 @@ class StartnextProjectJSON
   WordPerMonthCounter wcPerMonth;
   TextAnalyser ta;
   ArrayList<ProjectInfo> infos;
+  TagCounter tagCounter;
 
   // Some JSON keys we use
   private String JSON_KEY_TITLE                  = "title";
@@ -31,6 +32,7 @@ class StartnextProjectJSON
     wcFunded = new WordCounter();
     wcNotFunded = new WordCounter();
     ta = new TextAnalyser();
+    tagCounter = new TagCounter();
     timestampNow = System.currentTimeMillis();
     infos = new ArrayList<ProjectInfo>();
     wcPerMonth = new WordPerMonthCounter();
@@ -104,7 +106,7 @@ class StartnextProjectJSON
     String title  = getString(dataItems, JSON_KEY_TITLE);
     String teaser = getString(dataItems, JSON_KEY_TEASER);
     JSONArray answers    = getJSONArray(dataItems, JSON_KEY_ANSWERS);
-    JSONArray keywords   = getJSONArray(dataItems, JSON_KEY_KEYWORDS);
+    String[] keywords   = getJSONArray(dataItems, JSON_KEY_KEYWORDS).getStringArray();
     JSONArray categories = getJSONArray(dataItems, JSON_KEY_CATEGORIES);
     int funding_threshold = -1;
     if (dataItems.hasKey(JSON_KEY_FUNDING_THRESHOLD)) {
@@ -122,14 +124,14 @@ class StartnextProjectJSON
     String answersAll = mergeStringsFromJsonArray(answers, "");
     
     //merge the sKeywords and add them to their corresponding month
-    wcPerMonth.countWordsInMonth(mergeStringsFromJsonArray(keywords, " "), getLong(dataItems, JSON_KEY_END_DATE));
+    //wcPerMonth.countWordsInMonth(mergeStringsFromJsonArray(keywords, " "), getLong(dataItems, JSON_KEY_END_DATE));
 
     wc.countWords(answersAll);
     info.answersTextInfo = ta.analyse(answersAll);
     // Teaser
     info.teaserTextInfo = ta.analyse(teaser);
     // Tags
-    info.nTags = keywords.size();
+    info.nTags = keywords.length;
     // funded / not funded
     info.successful = isFunded;
     // only add finished items to the list
@@ -141,6 +143,9 @@ class StartnextProjectJSON
       else {
         wcNotFunded.countWords(answersAll);
       }
+    }
+    for(String s: keywords){
+      tagCounter.addTag(s);
     }
     Dbg.println(infos.size() + "");
   }

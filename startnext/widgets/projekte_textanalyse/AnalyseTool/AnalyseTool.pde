@@ -40,6 +40,9 @@ void setup() {
   JSONObject wordsPerMonth = project.wcPerMonth.getMonthsAsJSONObject(2);
   saveJSONObject(wordsPerMonth, "keywordsPerMonth.json");
 
+  // Generate and save tag json 
+  JSONArray jsonTags = project.tagCounter.getJsonArray(2);
+  saveJSONArray(jsonTags, "data/tags.json");
   
   exit();
 }
