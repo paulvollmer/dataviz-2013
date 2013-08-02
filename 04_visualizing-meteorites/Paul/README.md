@@ -1,6 +1,6 @@
 # Visualizing Meteorites
 
-http://wrongentertainment.github.io/dataviz-2013/04_visualizing-meteorites/Paul/
+http://fh-potsdam.github.io/dataviz-2013/04_visualizing-meteorites/Paul/
 
 ## Development
 
