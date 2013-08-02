@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<!-- 
+	Startnext Infographics Project
+	Widget: Wordcount
+-->
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Startnext Infographics</title>
+		<link rel="stylesheet" type="text/css" href="../../../css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="wordlist.css">
+   	 	<link rel="stylesheet" href="css/iThing.css" type="text/css" />
+		
+		<!--<script type="text/javascript" src="../../../js/jquery-2.0.2.min.js"></script>-->
+		<script type="text/javascript" src="../../../js/d3.v3.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.js"></script>
+		<script src="./js/jquery-ui-1.8.16.custom.min.js"></script>
+		<script src="./js/jquery.mousewheel.min.js"></script>
+		<script src="./js/jQAllRangeSliders-min.js"></script>
+
+	</head>
+
+	<body class="widget">
+		<div id="rangeSlider"></div>
+		<div id="wordcloud"><p></p></div>
+
+		<script type="text/javascript">
+
+			var startnext = startnext || {};
+			
+			startnext.data = {};
+			
+			startnext.updateChart = function(start, end) {
+				
+				var container = d3.select("div#wordcloud p");
+				
+				var ys = start[0];
+				var ms = start[1];
+				var ye = end[0];
+				var me = end[1];
+				
+				var yearLoop = ys;
+				var monthLoop = ms;
+				
+				while(yearLoop < ye || monthLoop < me)
+				{					
+					startnext.data.months.forEach( function(month, index) {
+						if (month["year-month"] == yearLoop + "-" + monthLoop) {
+							words = month.words;
+							words.forEach(function(word, index){								
+								var hashIndex = word.name;
+								hashIndex.replace(/\W/g, '');
+								var wordSelection = container.select("span#" + hashIndex).data( word );
+								console.log(wordSelection);
+								wordSelection.enter().append("span").attr("id", hashIndex).text( function (d) { return d.name } );
+							});
+						}
+					});
+					
+					if (monthLoop > 10) {
+						yearLoop++;
+						monthLoop = 0;
+					}
+					monthLoop++;
+				}
+				
+			};
+
+			startnext.wordlist = function() {
+
+				var data = null;
+				var summe = 0;
+
+				return {
+
+					setup: function(callback) {
+						
+						$("#rangeSlider").bind("valuesChanged", function(e, data)
+						{
+						  var start = [ (data.values.min.getYear() + 1900), data.values.min.getMonth()];
+						  var end = [(data.values.max.getYear() + 1900), data.values.max.getMonth()];
+						  startnext.updateChart(start, end);
+						});
+						
+						$("#rangeSlider").dateRangeSlider( {
+							bounds: {
+								min: new Date(2010, 0, 1),
+								max: new Date(2012, 11, 31)
+							},
+							range: {
+							    min: { months: 1 },
+							    max: { months: 6 }
+							},
+							step:{
+							    months: 1
+							}
+						} );
+						
+						summe = 0;
+						
+						d3.json("./keywordsPerMonth.json", function(jsonObject) {
+							startnext.data = jsonObject;
+						});
+					},
+					
+					draw: function(jsonObject) {
+
+						var textsize = d3.scale.linear().domain([16, 20542]).range([5, 250]);
+						
+						var words  = d3.select("div#wordcloud")
+						.append("p")
+						.selectAll("span")
+						.data(jsonObject)
+						.enter()
+						.append("span")
+						.attr("style", function(d) {
+							return "font-size: " + textsize(d.count) + "px;" + "line-height: " + (textsize(d.count) + 2) + "px;";
+						}).text(function(d) {
+							return d.name + " ";
+						})
+					}
+				}
+
+			}();
+
+			startnext.wordlist.setup(startnext.wordlist.draw);
+
+
+		</script>
+
+	</body>
+</html>

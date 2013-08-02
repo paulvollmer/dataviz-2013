@@ -1,0 +1,4482 @@
+[
+  {
+    "text": "",
+    "weight": 372
+  },
+  {
+    "text": "Portal",
+    "weight": 4
+  },
+  {
+    "text": "Internet",
+    "weight": 16
+  },
+  {
+    "text": "Komödie",
+    "weight": 51
+  },
+  {
+    "text": "test",
+    "weight": 10
+  },
+  {
+    "text": "iPhone",
+    "weight": 8
+  },
+  {
+    "text": "Foto",
+    "weight": 13
+  },
+  {
+    "text": "festival",
+    "weight": 2
+  },
+  {
+    "text": "ich",
+    "weight": 2
+  },
+  {
+    "text": "Dokumentarfilm",
+    "weight": 43
+  },
+  {
+    "text": "Georgien",
+    "weight": 3
+  },
+  {
+    "text": "Türkei",
+    "weight": 2
+  },
+  {
+    "text": "Open Source",
+    "weight": 4
+  },
+  {
+    "text": "Osteuropa",
+    "weight": 2
+  },
+  {
+    "text": "Abenteuer",
+    "weight": 17
+  },
+  {
+    "text": "Extremsport",
+    "weight": 6
+  },
+  {
+    "text": "Sport",
+    "weight": 16
+  },
+  {
+    "text": "Doku",
+    "weight": 18
+  },
+  {
+    "text": "Spenden",
+    "weight": 3
+  },
+  {
+    "text": "gemeinnützig",
+    "weight": 3
+  },
+  {
+    "text": "Armut",
+    "weight": 2
+  },
+  {
+    "text": "extrem",
+    "weight": 2
+  },
+  {
+    "text": "Kurzfilm",
+    "weight": 116
+  },
+  {
+    "text": "Film",
+    "weight": 85
+  },
+  {
+    "text": "Video",
+    "weight": 26
+  },
+  {
+    "text": "neu",
+    "weight": 2
+  },
+  {
+    "text": "innovativ",
+    "weight": 4
+  },
+  {
+    "text": "Spielfilm",
+    "weight": 37
+  },
+  {
+    "text": "Drama",
+    "weight": 65
+  },
+  {
+    "text": "Spanien",
+    "weight": 2
+  },
+  {
+    "text": "Frankreich",
+    "weight": 3
+  },
+  {
+    "text": "Design",
+    "weight": 42
+  },
+  {
+    "text": "Battle",
+    "weight": 2
+  },
+  {
+    "text": "Malen",
+    "weight": 2
+  },
+  {
+    "text": "Comic",
+    "weight": 15
+  },
+  {
+    "text": "Europa",
+    "weight": 10
+  },
+  {
+    "text": "Fledermausbuch",
+    "weight": 2
+  },
+  {
+    "text": "Fledermaus",
+    "weight": 2
+  },
+  {
+    "text": "Grafik Novel",
+    "weight": 2
+  },
+  {
+    "text": "Kinderbuch",
+    "weight": 12
+  },
+  {
+    "text": "Motte",
+    "weight": 2
+  },
+  {
+    "text": "Held",
+    "weight": 3
+  },
+  {
+    "text": "Angst",
+    "weight": 4
+  },
+  {
+    "text": "Freundschaft",
+    "weight": 8
+  },
+  {
+    "text": "Gitarre",
+    "weight": 10
+  },
+  {
+    "text": "Jazz",
+    "weight": 9
+  },
+  {
+    "text": "Worldmusic",
+    "weight": 2
+  },
+  {
+    "text": "Festival",
+    "weight": 43
+  },
+  {
+    "text": "Theater",
+    "weight": 72
+  },
+  {
+    "text": "Architektur",
+    "weight": 7
+  },
+  {
+    "text": "Sommerakademie",
+    "weight": 2
+  },
+  {
+    "text": "Kunst",
+    "weight": 75
+  },
+  {
+    "text": "Animation",
+    "weight": 8
+  },
+  {
+    "text": "Polizei",
+    "weight": 2
+  },
+  {
+    "text": "USA",
+    "weight": 5
+  },
+  {
+    "text": "Kultur",
+    "weight": 64
+  },
+  {
+    "text": "Freibad",
+    "weight": 3
+  },
+  {
+    "text": "Musik",
+    "weight": 155
+  },
+  {
+    "text": "Community",
+    "weight": 8
+  },
+  {
+    "text": "Österreich",
+    "weight": 4
+  },
+  {
+    "text": "Deutschland",
+    "weight": 8
+  },
+  {
+    "text": "Satire",
+    "weight": 5
+  },
+  {
+    "text": "Parodie",
+    "weight": 3
+  },
+  {
+    "text": "Lehrfilm",
+    "weight": 3
+  },
+  {
+    "text": "online",
+    "weight": 4
+  },
+  {
+    "text": "Kamera",
+    "weight": 6
+  },
+  {
+    "text": "Bild",
+    "weight": 2
+  },
+  {
+    "text": "Ton",
+    "weight": 3
+  },
+  {
+    "text": "Technik",
+    "weight": 2
+  },
+  {
+    "text": "Märchen",
+    "weight": 5
+  },
+  {
+    "text": "Geschichte",
+    "weight": 5
+  },
+  {
+    "text": "Psychologie",
+    "weight": 5
+  },
+  {
+    "text": "Schauspiel",
+    "weight": 8
+  },
+  {
+    "text": "kreativ",
+    "weight": 7
+  },
+  {
+    "text": "Workshop",
+    "weight": 9
+  },
+  {
+    "text": "Bildung",
+    "weight": 25
+  },
+  {
+    "text": "interdisziplinär",
+    "weight": 5
+  },
+  {
+    "text": "Snowboard",
+    "weight": 3
+  },
+  {
+    "text": "Open Air",
+    "weight": 4
+  },
+  {
+    "text": "Konzert",
+    "weight": 25
+  },
+  {
+    "text": "Web 2.0",
+    "weight": 3
+  },
+  {
+    "text": "Bildende Kunst",
+    "weight": 5
+  },
+  {
+    "text": "Fotokunst",
+    "weight": 2
+  },
+  {
+    "text": "Art",
+    "weight": 5
+  },
+  {
+    "text": "Ausstellung",
+    "weight": 36
+  },
+  {
+    "text": "Mural",
+    "weight": 2
+  },
+  {
+    "text": "Kalender",
+    "weight": 7
+  },
+  {
+    "text": "Menschen",
+    "weight": 3
+  },
+  {
+    "text": "kurzfilm",
+    "weight": 6
+  },
+  {
+    "text": "Alternative",
+    "weight": 4
+  },
+  {
+    "text": "Rock",
+    "weight": 28
+  },
+  {
+    "text": "CD Produktion",
+    "weight": 3
+  },
+  {
+    "text": "Filmemacher",
+    "weight": 2
+  },
+  {
+    "text": "action",
+    "weight": 3
+  },
+  {
+    "text": "love story",
+    "weight": 2
+  },
+  {
+    "text": "spielfilm",
+    "weight": 4
+  },
+  {
+    "text": "film 2",
+    "weight": 2
+  },
+  {
+    "text": "0",
+    "weight": 2
+  },
+  {
+    "text": "entwicklung",
+    "weight": 2
+  },
+  {
+    "text": "Klassische Musik",
+    "weight": 2
+  },
+  {
+    "text": "Kammermusik",
+    "weight": 3
+  },
+  {
+    "text": "Orchester",
+    "weight": 5
+  },
+  {
+    "text": "Urban Art",
+    "weight": 4
+  },
+  {
+    "text": "Street Art",
+    "weight": 5
+  },
+  {
+    "text": "Illustration",
+    "weight": 4
+  },
+  {
+    "text": "Graffiti",
+    "weight": 8
+  },
+  {
+    "text": "Point and Click Adventure",
+    "weight": 2
+  },
+  {
+    "text": "Medientheater",
+    "weight": 2
+  },
+  {
+    "text": "Rauminstallation",
+    "weight": 2
+  },
+  {
+    "text": "Installation",
+    "weight": 14
+  },
+  {
+    "text": "Computerspiel",
+    "weight": 2
+  },
+  {
+    "text": "Dresden",
+    "weight": 12
+  },
+  {
+    "text": "Buch",
+    "weight": 38
+  },
+  {
+    "text": "Interviews",
+    "weight": 4
+  },
+  {
+    "text": "Funk",
+    "weight": 4
+  },
+  {
+    "text": "Fotografie",
+    "weight": 52
+  },
+  {
+    "text": "Games",
+    "weight": 10
+  },
+  {
+    "text": "Mode",
+    "weight": 23
+  },
+  {
+    "text": "Journalismus",
+    "weight": 12
+  },
+  {
+    "text": "vampir",
+    "weight": 2
+  },
+  {
+    "text": "3d",
+    "weight": 2
+  },
+  {
+    "text": "Videoblog",
+    "weight": 2
+  },
+  {
+    "text": "Band",
+    "weight": 9
+  },
+  {
+    "text": "christlich",
+    "weight": 2
+  },
+  {
+    "text": "Sachsen",
+    "weight": 2
+  },
+  {
+    "text": "Chemnitz",
+    "weight": 3
+  },
+  {
+    "text": "Ausstattung",
+    "weight": 2
+  },
+  {
+    "text": "lustig",
+    "weight": 2
+  },
+  {
+    "text": "Studenten",
+    "weight": 8
+  },
+  {
+    "text": "sozial",
+    "weight": 11
+  },
+  {
+    "text": "Lesung",
+    "weight": 3
+  },
+  {
+    "text": "film",
+    "weight": 14
+  },
+  {
+    "text": "freude",
+    "weight": 2
+  },
+  {
+    "text": "Fotobuch",
+    "weight": 5
+  },
+  {
+    "text": "Poesie",
+    "weight": 6
+  },
+  {
+    "text": "Kinderfilm",
+    "weight": 3
+  },
+  {
+    "text": "Erfahrungsbericht",
+    "weight": 2
+  },
+  {
+    "text": "Rezension",
+    "weight": 2
+  },
+  {
+    "text": "Magazin",
+    "weight": 22
+  },
+  {
+    "text": "Entertainment",
+    "weight": 2
+  },
+  {
+    "text": "Lifestyle",
+    "weight": 3
+  },
+  {
+    "text": "Akustik",
+    "weight": 2
+  },
+  {
+    "text": "buch",
+    "weight": 6
+  },
+  {
+    "text": "roman",
+    "weight": 4
+  },
+  {
+    "text": "literatur",
+    "weight": 5
+  },
+  {
+    "text": "wien",
+    "weight": 2
+  },
+  {
+    "text": "Nachrichten",
+    "weight": 3
+  },
+  {
+    "text": "Informationen",
+    "weight": 3
+  },
+  {
+    "text": "Echtzeit",
+    "weight": 2
+  },
+  {
+    "text": "Twitter",
+    "weight": 2
+  },
+  {
+    "text": "Audio",
+    "weight": 2
+  },
+  {
+    "text": "Netzkunst",
+    "weight": 2
+  },
+  {
+    "text": "Wandern",
+    "weight": 2
+  },
+  {
+    "text": "Jakobsweg",
+    "weight": 4
+  },
+  {
+    "text": "Print",
+    "weight": 10
+  },
+  {
+    "text": "Stadt",
+    "weight": 4
+  },
+  {
+    "text": "Stadtplanung",
+    "weight": 2
+  },
+  {
+    "text": "Gesellschaft",
+    "weight": 7
+  },
+  {
+    "text": "Chancengleichheit",
+    "weight": 3
+  },
+  {
+    "text": "Kinder",
+    "weight": 29
+  },
+  {
+    "text": "Schule",
+    "weight": 12
+  },
+  {
+    "text": "Lernen",
+    "weight": 7
+  },
+  {
+    "text": "eBook",
+    "weight": 4
+  },
+  {
+    "text": "Umwelt",
+    "weight": 13
+  },
+  {
+    "text": "Depression",
+    "weight": 3
+  },
+  {
+    "text": "Oldtimer",
+    "weight": 2
+  },
+  {
+    "text": "Romantik",
+    "weight": 4
+  },
+  {
+    "text": "Liebe",
+    "weight": 22
+  },
+  {
+    "text": "Großstadt",
+    "weight": 2
+  },
+  {
+    "text": "Integration",
+    "weight": 6
+  },
+  {
+    "text": "Migration",
+    "weight": 6
+  },
+  {
+    "text": "Kuba",
+    "weight": 3
+  },
+  {
+    "text": "Biografie",
+    "weight": 3
+  },
+  {
+    "text": "magazin",
+    "weight": 4
+  },
+  {
+    "text": "kunst",
+    "weight": 14
+  },
+  {
+    "text": "print",
+    "weight": 2
+  },
+  {
+    "text": "Mädchen",
+    "weight": 5
+  },
+  {
+    "text": "Frauen",
+    "weight": 5
+  },
+  {
+    "text": "Lesen",
+    "weight": 3
+  },
+  {
+    "text": "Subkultur",
+    "weight": 3
+  },
+  {
+    "text": "Hörspiel",
+    "weight": 13
+  },
+  {
+    "text": "Sci-Fi",
+    "weight": 3
+  },
+  {
+    "text": "Humor",
+    "weight": 8
+  },
+  {
+    "text": "kino",
+    "weight": 2
+  },
+  {
+    "text": "langfilm",
+    "weight": 2
+  },
+  {
+    "text": "drama",
+    "weight": 3
+  },
+  {
+    "text": "komödie",
+    "weight": 3
+  },
+  {
+    "text": "Fotograf",
+    "weight": 5
+  },
+  {
+    "text": "Charity",
+    "weight": 4
+  },
+  {
+    "text": "Blog",
+    "weight": 5
+  },
+  {
+    "text": "Fernsehen",
+    "weight": 2
+  },
+  {
+    "text": "zeitgenössische Kunst",
+    "weight": 2
+  },
+  {
+    "text": "Rap",
+    "weight": 12
+  },
+  {
+    "text": "Hip Hop",
+    "weight": 9
+  },
+  {
+    "text": "Dokumentation",
+    "weight": 19
+  },
+  {
+    "text": "fotografie",
+    "weight": 6
+  },
+  {
+    "text": "portrait",
+    "weight": 2
+  },
+  {
+    "text": "menschen",
+    "weight": 3
+  },
+  {
+    "text": "ausstellung",
+    "weight": 3
+  },
+  {
+    "text": "Ebozon",
+    "weight": 2
+  },
+  {
+    "text": "Plattform",
+    "weight": 6
+  },
+  {
+    "text": "Onlineportal",
+    "weight": 2
+  },
+  {
+    "text": "Tanz",
+    "weight": 36
+  },
+  {
+    "text": "Interdisziplinarität",
+    "weight": 3
+  },
+  {
+    "text": "Performance",
+    "weight": 40
+  },
+  {
+    "text": "Show",
+    "weight": 4
+  },
+  {
+    "text": "Breakdance",
+    "weight": 2
+  },
+  {
+    "text": "Singer-Songwriter",
+    "weight": 6
+  },
+  {
+    "text": "Liedermacher",
+    "weight": 3
+  },
+  {
+    "text": "austausch",
+    "weight": 2
+  },
+  {
+    "text": "rap",
+    "weight": 4
+  },
+  {
+    "text": "art",
+    "weight": 4
+  },
+  {
+    "text": "soziales netzwerk",
+    "weight": 2
+  },
+  {
+    "text": "musik",
+    "weight": 14
+  },
+  {
+    "text": "Essay",
+    "weight": 3
+  },
+  {
+    "text": "HipHop",
+    "weight": 3
+  },
+  {
+    "text": "Soul",
+    "weight": 2
+  },
+  {
+    "text": "Weltmusik",
+    "weight": 3
+  },
+  {
+    "text": "Künstler",
+    "weight": 12
+  },
+  {
+    "text": "Atelier",
+    "weight": 3
+  },
+  {
+    "text": "Burlesque",
+    "weight": 2
+  },
+  {
+    "text": "sexy",
+    "weight": 2
+  },
+  {
+    "text": "Malerei",
+    "weight": 10
+  },
+  {
+    "text": "Katalog",
+    "weight": 4
+  },
+  {
+    "text": "Zeichnung",
+    "weight": 4
+  },
+  {
+    "text": "Crowdfunding",
+    "weight": 7
+  },
+  {
+    "text": "Kino",
+    "weight": 20
+  },
+  {
+    "text": "Fashion",
+    "weight": 11
+  },
+  {
+    "text": "Qualität",
+    "weight": 2
+  },
+  {
+    "text": "Schmuck",
+    "weight": 3
+  },
+  {
+    "text": "Reportage",
+    "weight": 7
+  },
+  {
+    "text": "Kommunikation",
+    "weight": 7
+  },
+  {
+    "text": "Podcast",
+    "weight": 3
+  },
+  {
+    "text": "Webentwicklung",
+    "weight": 2
+  },
+  {
+    "text": "Webdesign",
+    "weight": 3
+  },
+  {
+    "text": "hörspiel",
+    "weight": 4
+  },
+  {
+    "text": "musical",
+    "weight": 2
+  },
+  {
+    "text": "Test",
+    "weight": 4
+  },
+  {
+    "text": "Frankfurt",
+    "weight": 3
+  },
+  {
+    "text": "Istanbul",
+    "weight": 2
+  },
+  {
+    "text": "Bachelor",
+    "weight": 3
+  },
+  {
+    "text": "Abschlussfilm",
+    "weight": 2
+  },
+  {
+    "text": "Game",
+    "weight": 5
+  },
+  {
+    "text": "Langfilm",
+    "weight": 5
+  },
+  {
+    "text": "Krise des Theaters",
+    "weight": 2
+  },
+  {
+    "text": "Politik",
+    "weight": 9
+  },
+  {
+    "text": "Finanzkrise",
+    "weight": 3
+  },
+  {
+    "text": "Literatur",
+    "weight": 29
+  },
+  {
+    "text": "Tanzen",
+    "weight": 2
+  },
+  {
+    "text": "Hannover",
+    "weight": 4
+  },
+  {
+    "text": "Entwicklungshilfe",
+    "weight": 3
+  },
+  {
+    "text": "Liberia",
+    "weight": 2
+  },
+  {
+    "text": "Geld",
+    "weight": 9
+  },
+  {
+    "text": "Bücher",
+    "weight": 6
+  },
+  {
+    "text": "Fantasy",
+    "weight": 8
+  },
+  {
+    "text": "Action",
+    "weight": 6
+  },
+  {
+    "text": "Schüler",
+    "weight": 6
+  },
+  {
+    "text": "Projekt",
+    "weight": 8
+  },
+  {
+    "text": "Facebook",
+    "weight": 6
+  },
+  {
+    "text": "Kartenspiel",
+    "weight": 3
+  },
+  {
+    "text": "Spiel",
+    "weight": 8
+  },
+  {
+    "text": "Social Media",
+    "weight": 3
+  },
+  {
+    "text": "Website",
+    "weight": 4
+  },
+  {
+    "text": "Kinofilm",
+    "weight": 7
+  },
+  {
+    "text": "Pop",
+    "weight": 14
+  },
+  {
+    "text": "Diskurs",
+    "weight": 2
+  },
+  {
+    "text": "Tier",
+    "weight": 2
+  },
+  {
+    "text": "Kapitalismus",
+    "weight": 2
+  },
+  {
+    "text": "Tiere",
+    "weight": 4
+  },
+  {
+    "text": "Natur",
+    "weight": 14
+  },
+  {
+    "text": "Ratgeber",
+    "weight": 4
+  },
+  {
+    "text": "Kunstausstellung",
+    "weight": 2
+  },
+  {
+    "text": "Nachwuchsförderung",
+    "weight": 3
+  },
+  {
+    "text": "Flensburg",
+    "weight": 2
+  },
+  {
+    "text": "Live",
+    "weight": 6
+  },
+  {
+    "text": "Tango",
+    "weight": 3
+  },
+  {
+    "text": "Regie",
+    "weight": 2
+  },
+  {
+    "text": "Wettbewerb",
+    "weight": 6
+  },
+  {
+    "text": "Zeit",
+    "weight": 4
+  },
+  {
+    "text": "Singer/Songwriter",
+    "weight": 2
+  },
+  {
+    "text": "Mittelalter",
+    "weight": 2
+  },
+  {
+    "text": "80er",
+    "weight": 2
+  },
+  {
+    "text": "rock",
+    "weight": 10
+  },
+  {
+    "text": "pop",
+    "weight": 7
+  },
+  {
+    "text": "Wald",
+    "weight": 2
+  },
+  {
+    "text": "Medienkunst",
+    "weight": 3
+  },
+  {
+    "text": "Zukunft",
+    "weight": 6
+  },
+  {
+    "text": "Webseite",
+    "weight": 4
+  },
+  {
+    "text": "Fußball",
+    "weight": 2
+  },
+  {
+    "text": "Interaktiv",
+    "weight": 6
+  },
+  {
+    "text": "interdiciplinary kunst",
+    "weight": 2
+  },
+  {
+    "text": "live",
+    "weight": 2
+  },
+  {
+    "text": "Liebesfilm",
+    "weight": 2
+  },
+  {
+    "text": "Giftmischer",
+    "weight": 2
+  },
+  {
+    "text": "Babenhausen",
+    "weight": 2
+  },
+  {
+    "text": "Georg Engel",
+    "weight": 2
+  },
+  {
+    "text": "Sonja",
+    "weight": 2
+  },
+  {
+    "text": "Sex",
+    "weight": 2
+  },
+  {
+    "text": "CD",
+    "weight": 29
+  },
+  {
+    "text": "Kunstprojekt",
+    "weight": 6
+  },
+  {
+    "text": "Metal",
+    "weight": 9
+  },
+  {
+    "text": "Album",
+    "weight": 22
+  },
+  {
+    "text": "Zufall & Kontrolle",
+    "weight": 2
+  },
+  {
+    "text": "Triptychon",
+    "weight": 2
+  },
+  {
+    "text": "Interaktive Winkekatze",
+    "weight": 2
+  },
+  {
+    "text": "Lucky Cat",
+    "weight": 2
+  },
+  {
+    "text": "Casino Music",
+    "weight": 2
+  },
+  {
+    "text": "Glück im Unglück",
+    "weight": 2
+  },
+  {
+    "text": "Rhythm Slave",
+    "weight": 2
+  },
+  {
+    "text": "Fetisch",
+    "weight": 3
+  },
+  {
+    "text": "Experiment",
+    "weight": 2
+  },
+  {
+    "text": "Erzählung",
+    "weight": 2
+  },
+  {
+    "text": "Roman",
+    "weight": 7
+  },
+  {
+    "text": "Konferenz",
+    "weight": 3
+  },
+  {
+    "text": "Event",
+    "weight": 22
+  },
+  {
+    "text": "Pilot",
+    "weight": 3
+  },
+  {
+    "text": "Serie",
+    "weight": 5
+  },
+  {
+    "text": "anders",
+    "weight": 2
+  },
+  {
+    "text": "new",
+    "weight": 3
+  },
+  {
+    "text": "fashion",
+    "weight": 2
+  },
+  {
+    "text": "Afrika",
+    "weight": 8
+  },
+  {
+    "text": "camera",
+    "weight": 2
+  },
+  {
+    "text": "we are camera",
+    "weight": 2
+  },
+  {
+    "text": "wearecamera",
+    "weight": 2
+  },
+  {
+    "text": "berlin",
+    "weight": 7
+  },
+  {
+    "text": "rocknroll",
+    "weight": 2
+  },
+  {
+    "text": "can",
+    "weight": 2
+  },
+  {
+    "text": "krautrock",
+    "weight": 2
+  },
+  {
+    "text": "zschopau",
+    "weight": 2
+  },
+  {
+    "text": "sachsen",
+    "weight": 2
+  },
+  {
+    "text": "fernsehturm",
+    "weight": 2
+  },
+  {
+    "text": "timm brockmann",
+    "weight": 2
+  },
+  {
+    "text": "franz bargmann",
+    "weight": 2
+  },
+  {
+    "text": "michael drummer",
+    "weight": 2
+  },
+  {
+    "text": "popart",
+    "weight": 2
+  },
+  {
+    "text": "pop-art",
+    "weight": 2
+  },
+  {
+    "text": "damian ariel sardo",
+    "weight": 2
+  },
+  {
+    "text": "ole tholen",
+    "weight": 2
+  },
+  {
+    "text": "michel j. collet",
+    "weight": 2
+  },
+  {
+    "text": "music",
+    "weight": 8
+  },
+  {
+    "text": "berlin underground",
+    "weight": 2
+  },
+  {
+    "text": "berliner untergrund",
+    "weight": 2
+  },
+  {
+    "text": "band",
+    "weight": 4
+  },
+  {
+    "text": "benefiz",
+    "weight": 3
+  },
+  {
+    "text": "facebook",
+    "weight": 10
+  },
+  {
+    "text": "Musikvideo",
+    "weight": 15
+  },
+  {
+    "text": "Offene Ateliers",
+    "weight": 2
+  },
+  {
+    "text": "Schwabing",
+    "weight": 2
+  },
+  {
+    "text": "München",
+    "weight": 6
+  },
+  {
+    "text": "Skulptur",
+    "weight": 7
+  },
+  {
+    "text": "Jesus",
+    "weight": 2
+  },
+  {
+    "text": "Wurzeln Tanz Geige barock Klänge wilde Passagen Witz Herkunft aus der Volksmusik",
+    "weight": 4
+  },
+  {
+    "text": "Chor",
+    "weight": 7
+  },
+  {
+    "text": "Percussion",
+    "weight": 2
+  },
+  {
+    "text": "Schlagzeug",
+    "weight": 4
+  },
+  {
+    "text": "Drums",
+    "weight": 2
+  },
+  {
+    "text": "Medien",
+    "weight": 10
+  },
+  {
+    "text": "Zeitschrift",
+    "weight": 5
+  },
+  {
+    "text": "Familie",
+    "weight": 8
+  },
+  {
+    "text": "Nachhaltigkeit",
+    "weight": 11
+  },
+  {
+    "text": "malerei",
+    "weight": 2
+  },
+  {
+    "text": "kunstprojekt",
+    "weight": 2
+  },
+  {
+    "text": "Filmakademie",
+    "weight": 3
+  },
+  {
+    "text": "Kreativ",
+    "weight": 3
+  },
+  {
+    "text": "Photographie",
+    "weight": 6
+  },
+  {
+    "text": "Hamburg",
+    "weight": 16
+  },
+  {
+    "text": "fotokunst",
+    "weight": 2
+  },
+  {
+    "text": "künstlerin",
+    "weight": 2
+  },
+  {
+    "text": "stillleben",
+    "weight": 2
+  },
+  {
+    "text": "Gesundheit",
+    "weight": 5
+  },
+  {
+    "text": "Wirtschaft",
+    "weight": 4
+  },
+  {
+    "text": "Tanz-Theater",
+    "weight": 2
+  },
+  {
+    "text": "Zirkus",
+    "weight": 5
+  },
+  {
+    "text": "Erfolg",
+    "weight": 2
+  },
+  {
+    "text": "Leben",
+    "weight": 11
+  },
+  {
+    "text": "Glück",
+    "weight": 4
+  },
+  {
+    "text": "Tanztheater",
+    "weight": 3
+  },
+  {
+    "text": "Rassismus",
+    "weight": 3
+  },
+  {
+    "text": "Transformation",
+    "weight": 2
+  },
+  {
+    "text": "Migrationshintergrund",
+    "weight": 2
+  },
+  {
+    "text": "Regenerativ",
+    "weight": 2
+  },
+  {
+    "text": "Solar",
+    "weight": 3
+  },
+  {
+    "text": "Energie",
+    "weight": 5
+  },
+  {
+    "text": "Kundenvertretung",
+    "weight": 2
+  },
+  {
+    "text": "Kunden",
+    "weight": 2
+  },
+  {
+    "text": "Vertretung",
+    "weight": 2
+  },
+  {
+    "text": "Interessen",
+    "weight": 2
+  },
+  {
+    "text": "Verbesserungen",
+    "weight": 2
+  },
+  {
+    "text": "Unterstützung",
+    "weight": 3
+  },
+  {
+    "text": "Patenschaft",
+    "weight": 2
+  },
+  {
+    "text": "Ideen",
+    "weight": 2
+  },
+  {
+    "text": "Mitfinanzierung",
+    "weight": 2
+  },
+  {
+    "text": "Bedarfssteuerung",
+    "weight": 2
+  },
+  {
+    "text": "Resourcen",
+    "weight": 2
+  },
+  {
+    "text": "Resourcenschonen",
+    "weight": 2
+  },
+  {
+    "text": "Müllreduzierung",
+    "weight": 2
+  },
+  {
+    "text": "Science Fiction",
+    "weight": 9
+  },
+  {
+    "text": "Schriftsteller",
+    "weight": 2
+  },
+  {
+    "text": "Berlin",
+    "weight": 52
+  },
+  {
+    "text": "cd",
+    "weight": 5
+  },
+  {
+    "text": "Kunstbuch",
+    "weight": 3
+  },
+  {
+    "text": "Klassik",
+    "weight": 11
+  },
+  {
+    "text": "Musikvermittlung",
+    "weight": 2
+  },
+  {
+    "text": "Acoustic",
+    "weight": 4
+  },
+  {
+    "text": "Music",
+    "weight": 3
+  },
+  {
+    "text": "Vocals",
+    "weight": 2
+  },
+  {
+    "text": "Online",
+    "weight": 7
+  },
+  {
+    "text": "Mobil",
+    "weight": 2
+  },
+  {
+    "text": "Vampire",
+    "weight": 2
+  },
+  {
+    "text": "Digitale Medien",
+    "weight": 2
+  },
+  {
+    "text": "Tangible",
+    "weight": 2
+  },
+  {
+    "text": "Digital Experience",
+    "weight": 2
+  },
+  {
+    "text": "Christlich",
+    "weight": 2
+  },
+  {
+    "text": "Religion",
+    "weight": 4
+  },
+  {
+    "text": "Hardcore",
+    "weight": 4
+  },
+  {
+    "text": "Oper",
+    "weight": 5
+  },
+  {
+    "text": "Gesang",
+    "weight": 7
+  },
+  {
+    "text": "Weiterbildung",
+    "weight": 2
+  },
+  {
+    "text": "Talentförderung",
+    "weight": 2
+  },
+  {
+    "text": "klassische Musik",
+    "weight": 3
+  },
+  {
+    "text": "demographischen Wandel",
+    "weight": 2
+  },
+  {
+    "text": "Bildband",
+    "weight": 10
+  },
+  {
+    "text": "Südafrika",
+    "weight": 3
+  },
+  {
+    "text": "iPad",
+    "weight": 5
+  },
+  {
+    "text": "Abiball",
+    "weight": 2
+  },
+  {
+    "text": "Abiturball",
+    "weight": 2
+  },
+  {
+    "text": "Camp",
+    "weight": 2
+  },
+  {
+    "text": "Philharmonie",
+    "weight": 3
+  },
+  {
+    "text": "Guerilla",
+    "weight": 2
+  },
+  {
+    "text": "Konzerte",
+    "weight": 7
+  },
+  {
+    "text": "Musiktheater",
+    "weight": 4
+  },
+  {
+    "text": "grün",
+    "weight": 3
+  },
+  {
+    "text": "Lichtkunst",
+    "weight": 2
+  },
+  {
+    "text": "Heimat",
+    "weight": 2
+  },
+  {
+    "text": "Raum",
+    "weight": 3
+  },
+  {
+    "text": "Party",
+    "weight": 11
+  },
+  {
+    "text": "Porträt",
+    "weight": 3
+  },
+  {
+    "text": "Handwerk",
+    "weight": 2
+  },
+  {
+    "text": "Wasser",
+    "weight": 5
+  },
+  {
+    "text": "weltweit",
+    "weight": 3
+  },
+  {
+    "text": "Lyrik",
+    "weight": 3
+  },
+  {
+    "text": "Musikfilm",
+    "weight": 5
+  },
+  {
+    "text": "Kreativität",
+    "weight": 15
+  },
+  {
+    "text": "Iron Sky",
+    "weight": 2
+  },
+  {
+    "text": "Comedy",
+    "weight": 10
+  },
+  {
+    "text": "international",
+    "weight": 12
+  },
+  {
+    "text": "DVD",
+    "weight": 10
+  },
+  {
+    "text": "Ökologie",
+    "weight": 5
+  },
+  {
+    "text": "3D",
+    "weight": 3
+  },
+  {
+    "text": "Photo",
+    "weight": 2
+  },
+  {
+    "text": "essen",
+    "weight": 4
+  },
+  {
+    "text": "kochen",
+    "weight": 3
+  },
+  {
+    "text": "trinken",
+    "weight": 2
+  },
+  {
+    "text": "Hörbuch",
+    "weight": 8
+  },
+  {
+    "text": "culture",
+    "weight": 2
+  },
+  {
+    "text": "magazine",
+    "weight": 2
+  },
+  {
+    "text": "mehrsprachig",
+    "weight": 2
+  },
+  {
+    "text": "Novelle",
+    "weight": 2
+  },
+  {
+    "text": "Tod",
+    "weight": 4
+  },
+  {
+    "text": "Autor",
+    "weight": 2
+  },
+  {
+    "text": "Bibliothek",
+    "weight": 2
+  },
+  {
+    "text": "dresden",
+    "weight": 2
+  },
+  {
+    "text": "Künstlerförderung",
+    "weight": 2
+  },
+  {
+    "text": "Apple",
+    "weight": 4
+  },
+  {
+    "text": "Case",
+    "weight": 2
+  },
+  {
+    "text": "Improvisation",
+    "weight": 4
+  },
+  {
+    "text": "Veranstaltung",
+    "weight": 6
+  },
+  {
+    "text": "Open Journalism",
+    "weight": 2
+  },
+  {
+    "text": "Globe",
+    "weight": 2
+  },
+  {
+    "text": "Shakespeare",
+    "weight": 5
+  },
+  {
+    "text": "Miami",
+    "weight": 2
+  },
+  {
+    "text": "Diplom",
+    "weight": 2
+  },
+  {
+    "text": "Radio",
+    "weight": 2
+  },
+  {
+    "text": "Sommernachtstraum",
+    "weight": 2
+  },
+  {
+    "text": "Filmfestival",
+    "weight": 8
+  },
+  {
+    "text": "Lachen",
+    "weight": 2
+  },
+  {
+    "text": "Spaß",
+    "weight": 10
+  },
+  {
+    "text": "Zombie",
+    "weight": 2
+  },
+  {
+    "text": "privat",
+    "weight": 2
+  },
+  {
+    "text": "webScrip",
+    "weight": 2
+  },
+  {
+    "text": "Finanzierung Plattform",
+    "weight": 2
+  },
+  {
+    "text": "privat Finanzierung palt-form",
+    "weight": 2
+  },
+  {
+    "text": "www.hart2play.15gb.de",
+    "weight": 2
+  },
+  {
+    "text": "Underground",
+    "weight": 5
+  },
+  {
+    "text": "Debütalbum",
+    "weight": 3
+  },
+  {
+    "text": "größtes Buch der Welt",
+    "weight": 2
+  },
+  {
+    "text": "frei",
+    "weight": 2
+  },
+  {
+    "text": "Weihnachten",
+    "weight": 3
+  },
+  {
+    "text": "Mac",
+    "weight": 3
+  },
+  {
+    "text": "Betahaus",
+    "weight": 2
+  },
+  {
+    "text": "Computerspiele",
+    "weight": 3
+  },
+  {
+    "text": "Flucht",
+    "weight": 4
+  },
+  {
+    "text": "e-learning",
+    "weight": 2
+  },
+  {
+    "text": "Technologie",
+    "weight": 3
+  },
+  {
+    "text": "Survival",
+    "weight": 3
+  },
+  {
+    "text": "Cartoon",
+    "weight": 2
+  },
+  {
+    "text": "Grafik",
+    "weight": 5
+  },
+  {
+    "text": "Events",
+    "weight": 7
+  },
+  {
+    "text": "Space",
+    "weight": 3
+  },
+  {
+    "text": "Time",
+    "weight": 2
+  },
+  {
+    "text": "Menschenrechte",
+    "weight": 5
+  },
+  {
+    "text": "Aufklärung",
+    "weight": 3
+  },
+  {
+    "text": "Inspiration",
+    "weight": 4
+  },
+  {
+    "text": "Innovation",
+    "weight": 8
+  },
+  {
+    "text": "Schicksal",
+    "weight": 2
+  },
+  {
+    "text": "Beziehung",
+    "weight": 6
+  },
+  {
+    "text": "Club",
+    "weight": 3
+  },
+  {
+    "text": "DJ",
+    "weight": 3
+  },
+  {
+    "text": "Trance",
+    "weight": 2
+  },
+  {
+    "text": "Marokko",
+    "weight": 2
+  },
+  {
+    "text": "Köln",
+    "weight": 6
+  },
+  {
+    "text": "Austausch",
+    "weight": 5
+  },
+  {
+    "text": "Ehe",
+    "weight": 3
+  },
+  {
+    "text": "sensibel",
+    "weight": 2
+  },
+  {
+    "text": "Hochschule",
+    "weight": 2
+  },
+  {
+    "text": "Atomkraft",
+    "weight": 2
+  },
+  {
+    "text": "Tragikomödie",
+    "weight": 2
+  },
+  {
+    "text": "Stadtraum",
+    "weight": 2
+  },
+  {
+    "text": "Horror",
+    "weight": 9
+  },
+  {
+    "text": "Transmedia",
+    "weight": 2
+  },
+  {
+    "text": "Kollektiv",
+    "weight": 2
+  },
+  {
+    "text": "Thriller",
+    "weight": 19
+  },
+  {
+    "text": "Orgel",
+    "weight": 3
+  },
+  {
+    "text": "Förderung",
+    "weight": 4
+  },
+  {
+    "text": "Anthologie",
+    "weight": 2
+  },
+  {
+    "text": "Mitmachkonzert",
+    "weight": 2
+  },
+  {
+    "text": "Danny Dawn",
+    "weight": 2
+  },
+  {
+    "text": "Stuttgart",
+    "weight": 4
+  },
+  {
+    "text": "Nachwuchs",
+    "weight": 3
+  },
+  {
+    "text": "Spiele",
+    "weight": 3
+  },
+  {
+    "text": "App",
+    "weight": 12
+  },
+  {
+    "text": "Mobile",
+    "weight": 3
+  },
+  {
+    "text": "Behinderung",
+    "weight": 4
+  },
+  {
+    "text": "kulturelle Bildung",
+    "weight": 2
+  },
+  {
+    "text": "Demokratie",
+    "weight": 2
+  },
+  {
+    "text": "fluegel.tv",
+    "weight": 2
+  },
+  {
+    "text": "kultur",
+    "weight": 4
+  },
+  {
+    "text": "nachhaltig",
+    "weight": 2
+  },
+  {
+    "text": "Portrait",
+    "weight": 6
+  },
+  {
+    "text": "Autorenfilm",
+    "weight": 2
+  },
+  {
+    "text": "Reise",
+    "weight": 20
+  },
+  {
+    "text": "Tradition",
+    "weight": 3
+  },
+  {
+    "text": "Jugend",
+    "weight": 20
+  },
+  {
+    "text": "Dockville",
+    "weight": 2
+  },
+  {
+    "text": "Jugendliche",
+    "weight": 8
+  },
+  {
+    "text": "Behinderte",
+    "weight": 2
+  },
+  {
+    "text": "Veranstaltungen",
+    "weight": 3
+  },
+  {
+    "text": "Klavier",
+    "weight": 6
+  },
+  {
+    "text": "Videokunst",
+    "weight": 5
+  },
+  {
+    "text": "Interview",
+    "weight": 3
+  },
+  {
+    "text": "Film Noir",
+    "weight": 5
+  },
+  {
+    "text": "Aufnahme",
+    "weight": 2
+  },
+  {
+    "text": "Bass",
+    "weight": 2
+  },
+  {
+    "text": "Krimi",
+    "weight": 8
+  },
+  {
+    "text": "interaktiv",
+    "weight": 3
+  },
+  {
+    "text": "Mystery",
+    "weight": 8
+  },
+  {
+    "text": "Rätsel",
+    "weight": 2
+  },
+  {
+    "text": "Spurensuche",
+    "weight": 2
+  },
+  {
+    "text": "Entscheidung durch die Zuschauer",
+    "weight": 2
+  },
+  {
+    "text": "Tour",
+    "weight": 8
+  },
+  {
+    "text": "Akustik-Pop",
+    "weight": 2
+  },
+  {
+    "text": "Fussball",
+    "weight": 2
+  },
+  {
+    "text": "Ski",
+    "weight": 2
+  },
+  {
+    "text": "Applikation",
+    "weight": 2
+  },
+  {
+    "text": "Kindertheater",
+    "weight": 5
+  },
+  {
+    "text": "Galerie",
+    "weight": 8
+  },
+  {
+    "text": "Country",
+    "weight": 3
+  },
+  {
+    "text": "Punk",
+    "weight": 4
+  },
+  {
+    "text": "electro",
+    "weight": 3
+  },
+  {
+    "text": "Endzeit",
+    "weight": 2
+  },
+  {
+    "text": "Webserie",
+    "weight": 2
+  },
+  {
+    "text": "SciFi",
+    "weight": 2
+  },
+  {
+    "text": "Israel",
+    "weight": 5
+  },
+  {
+    "text": "Palästina",
+    "weight": 2
+  },
+  {
+    "text": "Werbung",
+    "weight": 3
+  },
+  {
+    "text": "Violine",
+    "weight": 4
+  },
+  {
+    "text": "Barock",
+    "weight": 3
+  },
+  {
+    "text": "Fotos",
+    "weight": 8
+  },
+  {
+    "text": "Diskriminierung",
+    "weight": 3
+  },
+  {
+    "text": "Singen",
+    "weight": 2
+  },
+  {
+    "text": "Gemeinschaft",
+    "weight": 2
+  },
+  {
+    "text": "Faust",
+    "weight": 2
+  },
+  {
+    "text": "Goethe",
+    "weight": 4
+  },
+  {
+    "text": "Style",
+    "weight": 3
+  },
+  {
+    "text": "Tragödie",
+    "weight": 3
+  },
+  {
+    "text": "Psycho",
+    "weight": 4
+  },
+  {
+    "text": "Mephisto",
+    "weight": 3
+  },
+  {
+    "text": "Independent",
+    "weight": 7
+  },
+  {
+    "text": "Italien",
+    "weight": 2
+  },
+  {
+    "text": "Italo-Film",
+    "weight": 2
+  },
+  {
+    "text": "Claudia Rorarius",
+    "weight": 2
+  },
+  {
+    "text": "Gianni Meurer",
+    "weight": 2
+  },
+  {
+    "text": "Kinostart",
+    "weight": 2
+  },
+  {
+    "text": "Premiere",
+    "weight": 3
+  },
+  {
+    "text": "Release",
+    "weight": 3
+  },
+  {
+    "text": "Ticket",
+    "weight": 2
+  },
+  {
+    "text": "Homosexuell",
+    "weight": 3
+  },
+  {
+    "text": "Roadmovie",
+    "weight": 9
+  },
+  {
+    "text": "Suche",
+    "weight": 3
+  },
+  {
+    "text": "Vatersuche",
+    "weight": 2
+  },
+  {
+    "text": "Erotik",
+    "weight": 3
+  },
+  {
+    "text": "Unterhaltung",
+    "weight": 8
+  },
+  {
+    "text": "Meinungsfreiheit",
+    "weight": 2
+  },
+  {
+    "text": "krieg",
+    "weight": 2
+  },
+  {
+    "text": "leben",
+    "weight": 2
+  },
+  {
+    "text": "Zeitraffer",
+    "weight": 2
+  },
+  {
+    "text": "Krankheit",
+    "weight": 3
+  },
+  {
+    "text": "Handtasche",
+    "weight": 2
+  },
+  {
+    "text": "Leder",
+    "weight": 2
+  },
+  {
+    "text": "Handbag",
+    "weight": 2
+  },
+  {
+    "text": "Individualität",
+    "weight": 2
+  },
+  {
+    "text": "Beziehungskultur",
+    "weight": 3
+  },
+  {
+    "text": "Verantwortung",
+    "weight": 2
+  },
+  {
+    "text": "Führung",
+    "weight": 2
+  },
+  {
+    "text": "Lust",
+    "weight": 2
+  },
+  {
+    "text": "Leistung",
+    "weight": 2
+  },
+  {
+    "text": "Begeisterung",
+    "weight": 2
+  },
+  {
+    "text": "alternativ",
+    "weight": 5
+  },
+  {
+    "text": "Mastering",
+    "weight": 2
+  },
+  {
+    "text": "Vertrieb",
+    "weight": 3
+  },
+  {
+    "text": "Digital",
+    "weight": 4
+  },
+  {
+    "text": "Clown",
+    "weight": 2
+  },
+  {
+    "text": "CD-Produktion",
+    "weight": 5
+  },
+  {
+    "text": "Youth",
+    "weight": 2
+  },
+  {
+    "text": "Reisen",
+    "weight": 5
+  },
+  {
+    "text": "Skate",
+    "weight": 2
+  },
+  {
+    "text": "Akt",
+    "weight": 2
+  },
+  {
+    "text": "Model",
+    "weight": 2
+  },
+  {
+    "text": "Student",
+    "weight": 3
+  },
+  {
+    "text": "Panorama",
+    "weight": 3
+  },
+  {
+    "text": "illustration",
+    "weight": 2
+  },
+  {
+    "text": "design",
+    "weight": 6
+  },
+  {
+    "text": "medien",
+    "weight": 3
+  },
+  {
+    "text": "perci mc gomeri",
+    "weight": 2
+  },
+  {
+    "text": "experimentell",
+    "weight": 2
+  },
+  {
+    "text": "Feuer",
+    "weight": 3
+  },
+  {
+    "text": "Identität",
+    "weight": 3
+  },
+  {
+    "text": "May Ayim",
+    "weight": 2
+  },
+  {
+    "text": "Peripherie",
+    "weight": 2
+  },
+  {
+    "text": "Immigration",
+    "weight": 4
+  },
+  {
+    "text": "Interkulturalität",
+    "weight": 3
+  },
+  {
+    "text": "Frauenrechte",
+    "weight": 2
+  },
+  {
+    "text": "gut",
+    "weight": 2
+  },
+  {
+    "text": "show",
+    "weight": 3
+  },
+  {
+    "text": "comedy",
+    "weight": 3
+  },
+  {
+    "text": "taub",
+    "weight": 2
+  },
+  {
+    "text": "Aroma",
+    "weight": 2
+  },
+  {
+    "text": "Workshops",
+    "weight": 3
+  },
+  {
+    "text": "Bananen",
+    "weight": 2
+  },
+  {
+    "text": "Neukölln",
+    "weight": 5
+  },
+  {
+    "text": "Schnee",
+    "weight": 3
+  },
+  {
+    "text": "China",
+    "weight": 4
+  },
+  {
+    "text": "Berge",
+    "weight": 2
+  },
+  {
+    "text": "Peking",
+    "weight": 5
+  },
+  {
+    "text": "Leidenschaft",
+    "weight": 2
+  },
+  {
+    "text": "Verständigung",
+    "weight": 2
+  },
+  {
+    "text": "Entwicklung",
+    "weight": 3
+  },
+  {
+    "text": "Limited Arts",
+    "weight": 4
+  },
+  {
+    "text": "T-Shirt",
+    "weight": 6
+  },
+  {
+    "text": "Streetwear",
+    "weight": 4
+  },
+  {
+    "text": "Label",
+    "weight": 5
+  },
+  {
+    "text": "Publikum",
+    "weight": 2
+  },
+  {
+    "text": "International",
+    "weight": 4
+  },
+  {
+    "text": "grusel",
+    "weight": 2
+  },
+  {
+    "text": "fantasy",
+    "weight": 2
+  },
+  {
+    "text": "Eltern",
+    "weight": 2
+  },
+  {
+    "text": "zeitgenössische Musik",
+    "weight": 2
+  },
+  {
+    "text": "Fotoausstellung",
+    "weight": 2
+  },
+  {
+    "text": "Schweiz",
+    "weight": 2
+  },
+  {
+    "text": "Künstlernetzwerk",
+    "weight": 3
+  },
+  {
+    "text": "Bilder",
+    "weight": 9
+  },
+  {
+    "text": "theater",
+    "weight": 3
+  },
+  {
+    "text": "Lieder und Arien von Schubert.Schumann",
+    "weight": 2
+  },
+  {
+    "text": "Händel",
+    "weight": 2
+  },
+  {
+    "text": "Gluck",
+    "weight": 2
+  },
+  {
+    "text": "Lieder und Arien von Schubert",
+    "weight": 2
+  },
+  {
+    "text": "Schumann",
+    "weight": 4
+  },
+  {
+    "text": "Händel und Gluck",
+    "weight": 2
+  },
+  {
+    "text": "iphone",
+    "weight": 6
+  },
+  {
+    "text": "Mutter",
+    "weight": 2
+  },
+  {
+    "text": "Sohn",
+    "weight": 2
+  },
+  {
+    "text": "Einsamkeit",
+    "weight": 2
+  },
+  {
+    "text": "Moabit",
+    "weight": 2
+  },
+  {
+    "text": "performance",
+    "weight": 3
+  },
+  {
+    "text": "historisch",
+    "weight": 4
+  },
+  {
+    "text": "südamerika",
+    "weight": 2
+  },
+  {
+    "text": "Fahrrad",
+    "weight": 4
+  },
+  {
+    "text": "Deep",
+    "weight": 2
+  },
+  {
+    "text": "Track",
+    "weight": 2
+  },
+  {
+    "text": "Song",
+    "weight": 7
+  },
+  {
+    "text": "Deutsch",
+    "weight": 2
+  },
+  {
+    "text": "movie",
+    "weight": 2
+  },
+  {
+    "text": "short film",
+    "weight": 3
+  },
+  {
+    "text": "Lesungen",
+    "weight": 2
+  },
+  {
+    "text": "Begegnung",
+    "weight": 2
+  },
+  {
+    "text": "Internetradio",
+    "weight": 3
+  },
+  {
+    "text": "Island",
+    "weight": 3
+  },
+  {
+    "text": "Klara Harden",
+    "weight": 2
+  },
+  {
+    "text": "Filmprojekt",
+    "weight": 2
+  },
+  {
+    "text": "Borderline",
+    "weight": 2
+  },
+  {
+    "text": "Wahrheit",
+    "weight": 2
+  },
+  {
+    "text": "Veröffentlichung",
+    "weight": 2
+  },
+  {
+    "text": "Performance. Oper. Gesang. Installation. 4.September 2011",
+    "weight": 2
+  },
+  {
+    "text": "Druck",
+    "weight": 4
+  },
+  {
+    "text": "soziales Projekt",
+    "weight": 2
+  },
+  {
+    "text": "Stiftung",
+    "weight": 3
+  },
+  {
+    "text": "Techno",
+    "weight": 2
+  },
+  {
+    "text": "event",
+    "weight": 5
+  },
+  {
+    "text": "house",
+    "weight": 2
+  },
+  {
+    "text": "zukunft",
+    "weight": 2
+  },
+  {
+    "text": "Trash",
+    "weight": 4
+  },
+  {
+    "text": "Movie",
+    "weight": 2
+  },
+  {
+    "text": "Rostock",
+    "weight": 2
+  },
+  {
+    "text": "Gewalt",
+    "weight": 5
+  },
+  {
+    "text": "Kleidung",
+    "weight": 4
+  },
+  {
+    "text": "DIY",
+    "weight": 5
+  },
+  {
+    "text": "Türkisch",
+    "weight": 3
+  },
+  {
+    "text": "Kirche",
+    "weight": 2
+  },
+  {
+    "text": "Glaube",
+    "weight": 2
+  },
+  {
+    "text": "Meditation",
+    "weight": 3
+  },
+  {
+    "text": "Hoffnung",
+    "weight": 3
+  },
+  {
+    "text": "Frieden",
+    "weight": 6
+  },
+  {
+    "text": "Lebenswege",
+    "weight": 2
+  },
+  {
+    "text": "Zeitung",
+    "weight": 3
+  },
+  {
+    "text": "Kiosk",
+    "weight": 2
+  },
+  {
+    "text": "Flüchtlinge",
+    "weight": 2
+  },
+  {
+    "text": "Drogen",
+    "weight": 3
+  },
+  {
+    "text": "lernen",
+    "weight": 4
+  },
+  {
+    "text": "Geige",
+    "weight": 5
+  },
+  {
+    "text": "Indiepop",
+    "weight": 2
+  },
+  {
+    "text": "Straßenmusik",
+    "weight": 2
+  },
+  {
+    "text": "Brettspiel",
+    "weight": 3
+  },
+  {
+    "text": "House",
+    "weight": 2
+  },
+  {
+    "text": "Bewusstsein",
+    "weight": 3
+  },
+  {
+    "text": "Indie",
+    "weight": 6
+  },
+  {
+    "text": "Sonne",
+    "weight": 2
+  },
+  {
+    "text": "2012",
+    "weight": 9
+  },
+  {
+    "text": "Museum",
+    "weight": 5
+  },
+  {
+    "text": "Bildhauerei",
+    "weight": 4
+  },
+  {
+    "text": "iOS",
+    "weight": 3
+  },
+  {
+    "text": "Jugendtheater",
+    "weight": 2
+  },
+  {
+    "text": "Wien",
+    "weight": 3
+  },
+  {
+    "text": "Suchmaschine",
+    "weight": 3
+  },
+  {
+    "text": "Information Retrieval",
+    "weight": 2
+  },
+  {
+    "text": "TV",
+    "weight": 4
+  },
+  {
+    "text": "Aconcagua",
+    "weight": 2
+  },
+  {
+    "text": "Bergsteigen",
+    "weight": 3
+  },
+  {
+    "text": "iGEM",
+    "weight": 2
+  },
+  {
+    "text": "Start-Up",
+    "weight": 2
+  },
+  {
+    "text": "Radzwillinge",
+    "weight": 2
+  },
+  {
+    "text": "Radfahren",
+    "weight": 2
+  },
+  {
+    "text": "Englisch",
+    "weight": 6
+  },
+  {
+    "text": "Japanisch",
+    "weight": 4
+  },
+  {
+    "text": "Raffael und seine Abenteuer",
+    "weight": 3
+  },
+  {
+    "text": "Glorreichen Bandidos",
+    "weight": 3
+  },
+  {
+    "text": "Gärten der Intelligenz (ab 16 Jahren) ISBN 9783837036909",
+    "weight": 2
+  },
+  {
+    "text": "Völkerverständigung",
+    "weight": 2
+  },
+  {
+    "text": "Mitmach-Aktion",
+    "weight": 2
+  },
+  {
+    "text": "interkulturell",
+    "weight": 4
+  },
+  {
+    "text": "Photography",
+    "weight": 2
+  },
+  {
+    "text": "book",
+    "weight": 2
+  },
+  {
+    "text": "Geschichten",
+    "weight": 2
+  },
+  {
+    "text": "lyrisch",
+    "weight": 2
+  },
+  {
+    "text": "horror",
+    "weight": 2
+  },
+  {
+    "text": "thriller",
+    "weight": 3
+  },
+  {
+    "text": "video",
+    "weight": 5
+  },
+  {
+    "text": "social media",
+    "weight": 4
+  },
+  {
+    "text": "Tagung",
+    "weight": 3
+  },
+  {
+    "text": "web 2.0",
+    "weight": 2
+  },
+  {
+    "text": "Vernetzung",
+    "weight": 2
+  },
+  {
+    "text": "Serbien",
+    "weight": 2
+  },
+  {
+    "text": "Ukraine",
+    "weight": 2
+  },
+  {
+    "text": "Griechenland",
+    "weight": 4
+  },
+  {
+    "text": "Psychiatrie",
+    "weight": 2
+  },
+  {
+    "text": "Philosophie",
+    "weight": 2
+  },
+  {
+    "text": "Spannung",
+    "weight": 4
+  },
+  {
+    "text": "Junges",
+    "weight": 2
+  },
+  {
+    "text": "Bewegung",
+    "weight": 5
+  },
+  {
+    "text": "Toleranz",
+    "weight": 2
+  },
+  {
+    "text": "Fonts",
+    "weight": 2
+  },
+  {
+    "text": "Chile",
+    "weight": 3
+  },
+  {
+    "text": "Argentinien",
+    "weight": 3
+  },
+  {
+    "text": "Sozial",
+    "weight": 7
+  },
+  {
+    "text": "Wissenschaft",
+    "weight": 3
+  },
+  {
+    "text": "Wandel",
+    "weight": 2
+  },
+  {
+    "text": "Paris",
+    "weight": 2
+  },
+  {
+    "text": "Wohnungen",
+    "weight": 2
+  },
+  {
+    "text": "Studium",
+    "weight": 4
+  },
+  {
+    "text": "Dramatischer Roman um Liebe  und Judenverfolgung",
+    "weight": 2
+  },
+  {
+    "text": "Tel Aviv",
+    "weight": 2
+  },
+  {
+    "text": "Holocaust",
+    "weight": 3
+  },
+  {
+    "text": "Juden",
+    "weight": 2
+  },
+  {
+    "text": "Crowdsourcing",
+    "weight": 2
+  },
+  {
+    "text": "Möbel",
+    "weight": 2
+  },
+  {
+    "text": "Bands",
+    "weight": 2
+  },
+  {
+    "text": "unabhängig",
+    "weight": 2
+  },
+  {
+    "text": "Vampir",
+    "weight": 2
+  },
+  {
+    "text": "Groteske",
+    "weight": 2
+  },
+  {
+    "text": "Araber",
+    "weight": 2
+  },
+  {
+    "text": "Alter",
+    "weight": 2
+  },
+  {
+    "text": "Bio",
+    "weight": 5
+  },
+  {
+    "text": "Kindheit",
+    "weight": 4
+  },
+  {
+    "text": "Erinnerung",
+    "weight": 3
+  },
+  {
+    "text": "Leipzig",
+    "weight": 7
+  },
+  {
+    "text": "Regal",
+    "weight": 2
+  },
+  {
+    "text": "Beauty",
+    "weight": 2
+  },
+  {
+    "text": "Literaturverfilmung",
+    "weight": 2
+  },
+  {
+    "text": "Freude",
+    "weight": 5
+  },
+  {
+    "text": "Japan",
+    "weight": 3
+  },
+  {
+    "text": "Tokio",
+    "weight": 2
+  },
+  {
+    "text": "Musikproduktion",
+    "weight": 6
+  },
+  {
+    "text": "Aufnahmen",
+    "weight": 2
+  },
+  {
+    "text": "Studio",
+    "weight": 5
+  },
+  {
+    "text": "Reiseführer",
+    "weight": 3
+  },
+  {
+    "text": "Analog",
+    "weight": 2
+  },
+  {
+    "text": "Platte",
+    "weight": 2
+  },
+  {
+    "text": "Alltag",
+    "weight": 2
+  },
+  {
+    "text": "Ehrenamt",
+    "weight": 3
+  },
+  {
+    "text": "Handarbeit",
+    "weight": 2
+  },
+  {
+    "text": "Bach",
+    "weight": 2
+  },
+  {
+    "text": "Ballon",
+    "weight": 3
+  },
+  {
+    "text": "Hildesheim",
+    "weight": 3
+  },
+  {
+    "text": "Postproduktion",
+    "weight": 2
+  },
+  {
+    "text": "Elektromobilität",
+    "weight": 2
+  },
+  {
+    "text": "Zweirad",
+    "weight": 2
+  },
+  {
+    "text": "vinyl",
+    "weight": 4
+  },
+  {
+    "text": "record",
+    "weight": 2
+  },
+  {
+    "text": "Graphic",
+    "weight": 2
+  },
+  {
+    "text": "Novel",
+    "weight": 2
+  },
+  {
+    "text": "Creatives",
+    "weight": 2
+  },
+  {
+    "text": "alternative",
+    "weight": 3
+  },
+  {
+    "text": "instrumental",
+    "weight": 2
+  },
+  {
+    "text": "indie",
+    "weight": 3
+  },
+  {
+    "text": "Tanzfilm",
+    "weight": 2
+  },
+  {
+    "text": "Drehbuch",
+    "weight": 2
+  },
+  {
+    "text": "Literaturwettbewerb",
+    "weight": 2
+  },
+  {
+    "text": "umwelt",
+    "weight": 2
+  },
+  {
+    "text": "Bolivien",
+    "weight": 4
+  },
+  {
+    "text": "Revolution",
+    "weight": 5
+  },
+  {
+    "text": "Veränderung",
+    "weight": 2
+  },
+  {
+    "text": "Gleichberechtigung",
+    "weight": 2
+  },
+  {
+    "text": "Kampf",
+    "weight": 2
+  },
+  {
+    "text": "Fotostudio",
+    "weight": 2
+  },
+  {
+    "text": "Gastronomie",
+    "weight": 4
+  },
+  {
+    "text": "Innovativ",
+    "weight": 4
+  },
+  {
+    "text": "Akkordeon Art",
+    "weight": 2
+  },
+  {
+    "text": "Manouches",
+    "weight": 2
+  },
+  {
+    "text": "gipsy music",
+    "weight": 5
+  },
+  {
+    "text": "EP",
+    "weight": 6
+  },
+  {
+    "text": "Singer",
+    "weight": 4
+  },
+  {
+    "text": "Songwriter",
+    "weight": 5
+  },
+  {
+    "text": "Lieder",
+    "weight": 3
+  },
+  {
+    "text": "Schrift",
+    "weight": 2
+  },
+  {
+    "text": "Gestaltung",
+    "weight": 5
+  },
+  {
+    "text": "Jugendkultur",
+    "weight": 6
+  },
+  {
+    "text": "antifaschistisch",
+    "weight": 2
+  },
+  {
+    "text": "Revue",
+    "weight": 2
+  },
+  {
+    "text": "Kulturelle Bildung",
+    "weight": 3
+  },
+  {
+    "text": "Partizipation",
+    "weight": 3
+  },
+  {
+    "text": "Inklusion",
+    "weight": 4
+  },
+  {
+    "text": "Schiller",
+    "weight": 2
+  },
+  {
+    "text": "Mozart",
+    "weight": 2
+  },
+  {
+    "text": "Kulturförderung",
+    "weight": 2
+  },
+  {
+    "text": "Naturheilkunde",
+    "weight": 3
+  },
+  {
+    "text": "ganzheitlich",
+    "weight": 3
+  },
+  {
+    "text": "Spiritualität",
+    "weight": 4
+  },
+  {
+    "text": "non-profit",
+    "weight": 3
+  },
+  {
+    "text": "idee",
+    "weight": 2
+  },
+  {
+    "text": "kinder",
+    "weight": 3
+  },
+  {
+    "text": "dokumentation",
+    "weight": 2
+  },
+  {
+    "text": "afrika",
+    "weight": 2
+  },
+  {
+    "text": "journalismus",
+    "weight": 2
+  },
+  {
+    "text": "BILDUNG",
+    "weight": 2
+  },
+  {
+    "text": "MUSIK",
+    "weight": 2
+  },
+  {
+    "text": "THEATER",
+    "weight": 2
+  },
+  {
+    "text": "KUNST",
+    "weight": 2
+  },
+  {
+    "text": "NATUR",
+    "weight": 2
+  },
+  {
+    "text": "Übersetzung",
+    "weight": 2
+  },
+  {
+    "text": "Experimentell",
+    "weight": 2
+  },
+  {
+    "text": "Fiktion",
+    "weight": 2
+  },
+  {
+    "text": "Tierschutz",
+    "weight": 3
+  },
+  {
+    "text": "Wut",
+    "weight": 2
+  },
+  {
+    "text": "Handicap",
+    "weight": 3
+  },
+  {
+    "text": "Zombies",
+    "weight": 3
+  },
+  {
+    "text": "Forum",
+    "weight": 4
+  },
+  {
+    "text": "ipad",
+    "weight": 2
+  },
+  {
+    "text": "Pascal van der Straaten",
+    "weight": 2
+  },
+  {
+    "text": "Backsteinromantik in Dänemark",
+    "weight": 2
+  },
+  {
+    "text": "Dance",
+    "weight": 3
+  },
+  {
+    "text": "reisen",
+    "weight": 3
+  },
+  {
+    "text": "urlaub",
+    "weight": 2
+  },
+  {
+    "text": "Filmfest",
+    "weight": 2
+  },
+  {
+    "text": "Kurzfilme",
+    "weight": 2
+  },
+  {
+    "text": "android",
+    "weight": 4
+  },
+  {
+    "text": "gaming",
+    "weight": 2
+  },
+  {
+    "text": "Protest",
+    "weight": 3
+  },
+  {
+    "text": "Studentenfilm",
+    "weight": 6
+  },
+  {
+    "text": "Utopie",
+    "weight": 3
+  },
+  {
+    "text": "Werbeplattform",
+    "weight": 2
+  },
+  {
+    "text": "Piano",
+    "weight": 2
+  },
+  {
+    "text": "Berlinale",
+    "weight": 2
+  },
+  {
+    "text": "Kraft",
+    "weight": 2
+  },
+  {
+    "text": "Nazi-Diktatur",
+    "weight": 2
+  },
+  {
+    "text": "Zeichen gegen Rechts",
+    "weight": 2
+  },
+  {
+    "text": "Judengasse",
+    "weight": 2
+  },
+  {
+    "text": "projekt",
+    "weight": 2
+  },
+  {
+    "text": "reportage",
+    "weight": 4
+  },
+  {
+    "text": "Arthouse",
+    "weight": 3
+  },
+  {
+    "text": "zeitgenössischer Tanz",
+    "weight": 2
+  },
+  {
+    "text": "Lied",
+    "weight": 2
+  },
+  {
+    "text": "Engel",
+    "weight": 2
+  },
+  {
+    "text": "Geschenk",
+    "weight": 4
+  },
+  {
+    "text": "Spass",
+    "weight": 4
+  },
+  {
+    "text": "Kontrabass",
+    "weight": 2
+  },
+  {
+    "text": "Historie",
+    "weight": 2
+  },
+  {
+    "text": "Fotoreportage",
+    "weight": 2
+  },
+  {
+    "text": "Ost Afrika",
+    "weight": 2
+  },
+  {
+    "text": "Presse",
+    "weight": 3
+  },
+  {
+    "text": "Sänger",
+    "weight": 3
+  },
+  {
+    "text": "Blues",
+    "weight": 3
+  },
+  {
+    "text": "a-cappella",
+    "weight": 2
+  },
+  {
+    "text": "Musiker",
+    "weight": 4
+  },
+  {
+    "text": "Fachbuch",
+    "weight": 2
+  },
+  {
+    "text": "Reggae",
+    "weight": 2
+  },
+  {
+    "text": "Welt",
+    "weight": 2
+  },
+  {
+    "text": "Geldsystem",
+    "weight": 2
+  },
+  {
+    "text": "Balloons for Peace",
+    "weight": 2
+  },
+  {
+    "text": "Kaukasus",
+    "weight": 2
+  },
+  {
+    "text": "Waisenkinder",
+    "weight": 2
+  },
+  {
+    "text": "Klimawandel",
+    "weight": 4
+  },
+  {
+    "text": "Motorsport",
+    "weight": 2
+  },
+  {
+    "text": "Kleinverlage",
+    "weight": 2
+  },
+  {
+    "text": "Selbstverleger",
+    "weight": 2
+  },
+  {
+    "text": "junge Autoren",
+    "weight": 2
+  },
+  {
+    "text": "Literaturforum",
+    "weight": 2
+  },
+  {
+    "text": "Bücher von nebenan",
+    "weight": 2
+  },
+  {
+    "text": "büro",
+    "weight": 2
+  },
+  {
+    "text": "Hilfe",
+    "weight": 3
+  },
+  {
+    "text": "Journalist",
+    "weight": 2
+  },
+  {
+    "text": "Graz",
+    "weight": 2
+  },
+  {
+    "text": "social",
+    "weight": 3
+  },
+  {
+    "text": "app",
+    "weight": 4
+  },
+  {
+    "text": "youtube",
+    "weight": 3
+  },
+  {
+    "text": "student",
+    "weight": 3
+  },
+  {
+    "text": "startup",
+    "weight": 2
+  },
+  {
+    "text": "hilfe",
+    "weight": 2
+  },
+  {
+    "text": "Fliegen",
+    "weight": 5
+  },
+  {
+    "text": "Café",
+    "weight": 2
+  },
+  {
+    "text": "Cafe",
+    "weight": 2
+  },
+  {
+    "text": "Freizeit",
+    "weight": 4
+  },
+  {
+    "text": "Essen",
+    "weight": 7
+  },
+  {
+    "text": "Trinken",
+    "weight": 3
+  },
+  {
+    "text": "noise",
+    "weight": 2
+  },
+  {
+    "text": "Software",
+    "weight": 7
+  },
+  {
+    "text": "Erfindung",
+    "weight": 9
+  },
+  {
+    "text": "universität",
+    "weight": 2
+  },
+  {
+    "text": "reggae",
+    "weight": 2
+  },
+  {
+    "text": "Licht",
+    "weight": 3
+  },
+  {
+    "text": "Support",
+    "weight": 2
+  },
+  {
+    "text": "Vernissage",
+    "weight": 4
+  },
+  {
+    "text": "sport",
+    "weight": 2
+  },
+  {
+    "text": "CD-Aufnahme",
+    "weight": 2
+  },
+  {
+    "text": "Hass",
+    "weight": 2
+  },
+  {
+    "text": "Missbrauch",
+    "weight": 2
+  },
+  {
+    "text": "world",
+    "weight": 2
+  },
+  {
+    "text": "Apps",
+    "weight": 2
+  },
+  {
+    "text": "Heiratsantrag",
+    "weight": 2
+  },
+  {
+    "text": "Hochzeit",
+    "weight": 2
+  },
+  {
+    "text": "Mut",
+    "weight": 2
+  },
+  {
+    "text": "Post",
+    "weight": 3
+  },
+  {
+    "text": "E-Bike",
+    "weight": 2
+  },
+  {
+    "text": "Pedelec",
+    "weight": 2
+  },
+  {
+    "text": "Spielen",
+    "weight": 2
+  },
+  {
+    "text": "Kulturhaus",
+    "weight": 2
+  },
+  {
+    "text": "foto",
+    "weight": 2
+  },
+  {
+    "text": "installation",
+    "weight": 2
+  },
+  {
+    "text": "Web",
+    "weight": 3
+  },
+  {
+    "text": "Framed Faces",
+    "weight": 2
+  },
+  {
+    "text": "Festung Europa",
+    "weight": 2
+  },
+  {
+    "text": "deutschFM",
+    "weight": 3
+  },
+  {
+    "text": "software",
+    "weight": 3
+  },
+  {
+    "text": "Einrichtung",
+    "weight": 2
+  },
+  {
+    "text": "Elektronik",
+    "weight": 2
+  },
+  {
+    "text": "Bremerhaven",
+    "weight": 2
+  },
+  {
+    "text": "Kristalle",
+    "weight": 2
+  },
+  {
+    "text": "Versager",
+    "weight": 2
+  },
+  {
+    "text": "Produktion",
+    "weight": 7
+  },
+  {
+    "text": "landart",
+    "weight": 2
+  },
+  {
+    "text": "recycling",
+    "weight": 2
+  },
+  {
+    "text": "Indien",
+    "weight": 2
+  },
+  {
+    "text": "Reisekosten",
+    "weight": 2
+  },
+  {
+    "text": "Taxi",
+    "weight": 2
+  },
+  {
+    "text": "Chanson",
+    "weight": 2
+  },
+  {
+    "text": "Umweltschutz",
+    "weight": 3
+  },
+  {
+    "text": "Müll",
+    "weight": 2
+  },
+  {
+    "text": "Plastik",
+    "weight": 3
+  },
+  {
+    "text": "Abfall",
+    "weight": 2
+  },
+  {
+    "text": "weiß",
+    "weight": 2
+  },
+  {
+    "text": "Jugendfilm",
+    "weight": 2
+  },
+  {
+    "text": "Erfahrung",
+    "weight": 2
+  },
+  {
+    "text": "Namibia",
+    "weight": 2
+  },
+  {
+    "text": "Bar",
+    "weight": 2
+  },
+  {
+    "text": "Smartphone",
+    "weight": 3
+  },
+  {
+    "text": "Android",
+    "weight": 5
+  },
+  {
+    "text": "Restaurant",
+    "weight": 3
+  },
+  {
+    "text": "Wolf",
+    "weight": 2
+  },
+  {
+    "text": "Musical",
+    "weight": 5
+  },
+  {
+    "text": "spiele",
+    "weight": 2
+  },
+  {
+    "text": "games",
+    "weight": 5
+  },
+  {
+    "text": "Rollenspiel",
+    "weight": 2
+  },
+  {
+    "text": "mobil",
+    "weight": 2
+  },
+  {
+    "text": "Gaming",
+    "weight": 2
+  },
+  {
+    "text": "Folk",
+    "weight": 3
+  },
+  {
+    "text": "Newcomer",
+    "weight": 4
+  },
+  {
+    "text": "Tanz Theater",
+    "weight": 2
+  },
+  {
+    "text": "Multiplayer",
+    "weight": 2
+  },
+  {
+    "text": "Freiheit",
+    "weight": 2
+  },
+  {
+    "text": "Molière",
+    "weight": 2
+  },
+  {
+    "text": "Halstead",
+    "weight": 2
+  },
+  {
+    "text": "Rudi",
+    "weight": 3
+  },
+  {
+    "text": "Typografie",
+    "weight": 2
+  },
+  {
+    "text": "Taschen",
+    "weight": 2
+  },
+  {
+    "text": "inklusive Percussion Bigband",
+    "weight": 2
+  },
+  {
+    "text": "Album Support",
+    "weight": 2
+  },
+  {
+    "text": "Kassel",
+    "weight": 2
+  },
+  {
+    "text": "spaß",
+    "weight": 3
+  },
+  {
+    "text": "doku",
+    "weight": 2
+  },
+  {
+    "text": "wandern",
+    "weight": 2
+  },
+  {
+    "text": "reise",
+    "weight": 4
+  },
+  {
+    "text": "Award",
+    "weight": 4
+  },
+  {
+    "text": "Barrierefreiheit",
+    "weight": 2
+  },
+  {
+    "text": "Münster",
+    "weight": 2
+  },
+  {
+    "text": "Bremen",
+    "weight": 2
+  },
+  {
+    "text": "Wuppertal",
+    "weight": 2
+  },
+  {
+    "text": "Turnier",
+    "weight": 2
+  },
+  {
+    "text": "Projekttheater",
+    "weight": 2
+  },
+  {
+    "text": "darstellende Kunst",
+    "weight": 2
+  },
+  {
+    "text": "Civil Rights",
+    "weight": 2
+  },
+  {
+    "text": "Documentary",
+    "weight": 3
+  },
+  {
+    "text": "Education",
+    "weight": 3
+  },
+  {
+    "text": "Neu",
+    "weight": 2
+  },
+  {
+    "text": "CD mit Liedern und Arien",
+    "weight": 2
+  },
+  {
+    "text": "Wüste",
+    "weight": 3
+  },
+  {
+    "text": "Science-Fiction",
+    "weight": 3
+  },
+  {
+    "text": "Apokalypse",
+    "weight": 2
+  },
+  {
+    "text": "frankfurt",
+    "weight": 2
+  },
+  {
+    "text": "dokumentarfilm",
+    "weight": 3
+  },
+  {
+    "text": "Multimedia",
+    "weight": 2
+  },
+  {
+    "text": "Hip-Hop",
+    "weight": 3
+  },
+  {
+    "text": "Experimentalfilm",
+    "weight": 2
+  },
+  {
+    "text": "Uraufführung",
+    "weight": 2
+  },
+  {
+    "text": "hörbuch",
+    "weight": 2
+  },
+  {
+    "text": "Netzwerk",
+    "weight": 5
+  },
+  {
+    "text": "Datenschutz",
+    "weight": 2
+  },
+  {
+    "text": "Kulturprojekt",
+    "weight": 2
+  },
+  {
+    "text": "Exhibition",
+    "weight": 2
+  },
+  {
+    "text": "bayern",
+    "weight": 2
+  },
+  {
+    "text": "Gustav Mahler",
+    "weight": 2
+  },
+  {
+    "text": "Jugendroman. Roman über Macht und Wirken des Kapitalismus. Ausbeutung. Spannung",
+    "weight": 2
+  },
+  {
+    "text": "Jugendaustausch",
+    "weight": 2
+  },
+  {
+    "text": "Social Networks",
+    "weight": 2
+  },
+  {
+    "text": "Jugendorchester",
+    "weight": 3
+  },
+  {
+    "text": "Kochen",
+    "weight": 3
+  },
+  {
+    "text": "Fotofilm",
+    "weight": 2
+  },
+  {
+    "text": "taz",
+    "weight": 2
+  },
+  {
+    "text": "2470media",
+    "weight": 2
+  },
+  {
+    "text": "Marketing",
+    "weight": 2
+  },
+  {
+    "text": "Vinyl",
+    "weight": 4
+  },
+  {
+    "text": "Kriminalroman",
+    "weight": 2
+  },
+  {
+    "text": "Haus",
+    "weight": 2
+  },
+  {
+    "text": "Tauschring",
+    "weight": 2
+  },
+  {
+    "text": "Swiss Ecu",
+    "weight": 2
+  },
+  {
+    "text": "Punkrock",
+    "weight": 2
+  },
+  {
+    "text": "Kiel",
+    "weight": 2
+  },
+  {
+    "text": "deutschland",
+    "weight": 3
+  },
+  {
+    "text": "Hip",
+    "weight": 2
+  },
+  {
+    "text": "-",
+    "weight": 5
+  },
+  {
+    "text": "Gebärdensprache",
+    "weight": 2
+  },
+  {
+    "text": "gehörlos",
+    "weight": 2
+  },
+  {
+    "text": "LP",
+    "weight": 2
+  },
+  {
+    "text": "Traum",
+    "weight": 3
+  },
+  {
+    "text": "Musikfestival",
+    "weight": 3
+  },
+  {
+    "text": "EM",
+    "weight": 2
+  },
+  {
+    "text": "Outdoor",
+    "weight": 2
+  },
+  {
+    "text": "Adventure",
+    "weight": 2
+  },
+  {
+    "text": "Filme",
+    "weight": 2
+  },
+  {
+    "text": "Dima Richman",
+    "weight": 2
+  },
+  {
+    "text": "Sommerlager",
+    "weight": 2
+  },
+  {
+    "text": "Raising Resistance",
+    "weight": 2
+  },
+  {
+    "text": "Gentechnik",
+    "weight": 2
+  },
+  {
+    "text": "Soja",
+    "weight": 2
+  },
+  {
+    "text": "Paraguay",
+    "weight": 2
+  },
+  {
+    "text": "Geronimo",
+    "weight": 2
+  },
+  {
+    "text": "Projekt Umdenken",
+    "weight": 2
+  },
+  {
+    "text": "Öffentlicher Raum",
+    "weight": 2
+  },
+  {
+    "text": "Rapper",
+    "weight": 2
+  },
+  {
+    "text": "Browsergame",
+    "weight": 2
+  },
+  {
+    "text": "Strategie",
+    "weight": 2
+  },
+  {
+    "text": "Urlaub",
+    "weight": 2
+  },
+  {
+    "text": "Auto",
+    "weight": 2
+  },
+  {
+    "text": "game",
+    "weight": 2
+  },
+  {
+    "text": "und",
+    "weight": 3
+  },
+  {
+    "text": "Massage",
+    "weight": 2
+  },
+  {
+    "text": "JUGEND",
+    "weight": 2
+  },
+  {
+    "text": "album",
+    "weight": 4
+  },
+  {
+    "text": "documentary",
+    "weight": 3
+  },
+  {
+    "text": "Inszenierung",
+    "weight": 2
+  },
+  {
+    "text": "Aymara",
+    "weight": 3
+  },
+  {
+    "text": "Gesellschaftsspiel",
+    "weight": 2
+  },
+  {
+    "text": "Freie Energie",
+    "weight": 2
+  },
+  {
+    "text": "tracking",
+    "weight": 2
+  },
+  {
+    "text": "Videoinstallation",
+    "weight": 3
+  },
+  {
+    "text": "Videoskulptur",
+    "weight": 2
+  },
+  {
+    "text": "Alltag in China",
+    "weight": 2
+  },
+  {
+    "text": "Leben in China",
+    "weight": 2
+  },
+  {
+    "text": "Fotografie in China",
+    "weight": 2
+  },
+  {
+    "text": "Live-Musik",
+    "weight": 2
+  },
+  {
+    "text": "Sponsoring",
+    "weight": 2
+  },
+  {
+    "text": "mystery",
+    "weight": 2
+  },
+  {
+    "text": "Ferien",
+    "weight": 2
+  }
+]
